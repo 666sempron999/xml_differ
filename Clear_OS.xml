@@ -1,0 +1,1231 @@
+<results timeFormat="msec">
+  <boot>
+    <processSummary numProcesses="71" numUnexpectedLonglived="43" numUnexpectedShortlived="16" numUnexpectedVeryShortlived="10">
+      <expectedProcesses>
+        <process name="Idle" startTime="0" endTime="-1" lifetime="-1"/>
+        <process name="System" startTime="0" endTime="-1" lifetime="-1"/>
+      </expectedProcesses>
+      <unexpectedLonglived>
+        <process name="smss.exe" startTime="5467" endTime="-1" lifetime="-1"/>
+        <process name="csrss.exe" startTime="7178" endTime="-1" lifetime="-1"/>
+        <process name="wininit.exe" startTime="7489" endTime="-1" lifetime="-1"/>
+        <process name="csrss.exe" startTime="7492" endTime="-1" lifetime="-1"/>
+        <process name="winlogon.exe" startTime="7682" endTime="-1" lifetime="-1"/>
+        <process name="services.exe" startTime="7814" endTime="-1" lifetime="-1"/>
+        <process name="lsass.exe" startTime="7872" endTime="-1" lifetime="-1"/>
+        <process name="lsm.exe" startTime="7874" endTime="-1" lifetime="-1"/>
+        <process name="svchost.exe" startTime="8433" endTime="-1" lifetime="-1"/>
+        <process name="VBoxService.exe" startTime="8605" endTime="-1" lifetime="-1"/>
+        <process name="svchost.exe" startTime="8729" endTime="-1" lifetime="-1"/>
+        <process name="svchost.exe" startTime="8785" endTime="-1" lifetime="-1"/>
+        <process name="svchost.exe" startTime="9308" endTime="-1" lifetime="-1"/>
+        <process name="svchost.exe" startTime="9478" endTime="-1" lifetime="-1"/>
+        <process name="svchost.exe" startTime="9628" endTime="-1" lifetime="-1"/>
+        <process name="dwm.exe" startTime="10499" endTime="-1" lifetime="-1"/>
+        <process name="svchost.exe" startTime="10638" endTime="-1" lifetime="-1"/>
+        <process name="spoolsv.exe" startTime="10883" endTime="-1" lifetime="-1"/>
+        <process name="taskeng.exe" startTime="10918" endTime="-1" lifetime="-1"/>
+        <process name="taskhost.exe" startTime="10974" endTime="-1" lifetime="-1"/>
+        <process name="svchost.exe" startTime="11004" endTime="-1" lifetime="-1"/>
+        <process name="vmicsvc.exe" startTime="11374" endTime="-1" lifetime="-1"/>
+        <process name="vmicsvc.exe" startTime="11396" endTime="-1" lifetime="-1"/>
+        <process name="vmicsvc.exe" startTime="11428" endTime="-1" lifetime="-1"/>
+        <process name="vmicsvc.exe" startTime="11467" endTime="-1" lifetime="-1"/>
+        <process name="vmicsvc.exe" startTime="11484" endTime="-1" lifetime="-1"/>
+        <process name="svchost.exe" startTime="11597" endTime="-1" lifetime="-1"/>
+        <process name="cygrunsrv.exe" startTime="11812" endTime="-1" lifetime="-1"/>
+        <process name="wlms.exe" startTime="11996" endTime="-1" lifetime="-1"/>
+        <process name="conhost.exe" startTime="12553" endTime="-1" lifetime="-1"/>
+        <process name="sshd.exe" startTime="12580" endTime="-1" lifetime="-1"/>
+        <process name="sppsvc.exe" startTime="13440" endTime="-1" lifetime="-1"/>
+        <process name="svchost.exe" startTime="13629" endTime="-1" lifetime="-1"/>
+        <process name="TrustedInstaller.exe" startTime="14779" endTime="-1" lifetime="-1"/>
+        <process name="explorer.exe" startTime="19162" endTime="-1" lifetime="-1"/>
+        <process name="VBoxTray.exe" startTime="19865" endTime="-1" lifetime="-1"/>
+        <process name="SearchIndexer.exe" startTime="25738" endTime="-1" lifetime="-1"/>
+        <process name="svchost.exe" startTime="133500" endTime="-1" lifetime="-1"/>
+        <process name="svchost.exe" startTime="134104" endTime="-1" lifetime="-1"/>
+        <process name="dllhost.exe" startTime="142546" endTime="-1" lifetime="-1"/>
+        <process name="dllhost.exe" startTime="142647" endTime="-1" lifetime="-1"/>
+        <process name="xbootmgr.exe" startTime="142690" endTime="-1" lifetime="-1"/>
+        <process name="WmiPrvSE.exe" startTime="142790" endTime="-1" lifetime="-1"/>
+      </unexpectedLonglived>
+      <unexpectedShortlived>
+        <process name="smss.exe" startTime="7095" endTime="7489" lifetime="394"/>
+        <process name="smss.exe" startTime="7488" endTime="7682" lifetime="194"/>
+        <process name="LogonUI.exe" startTime="8850" endTime="16724" lifetime="7874"/>
+        <process name="dllhost.exe" startTime="10088" endTime="16644" lifetime="6555"/>
+        <process name="slui.exe" startTime="10366" endTime="18834" lifetime="8467"/>
+        <process name="lpksetup.exe" startTime="12698" endTime="16500" lifetime="3802"/>
+        <process name="GoogleUpdate.exe" startTime="12724" endTime="12871" lifetime="147"/>
+        <process name="lpksetup.exe" startTime="14134" endTime="22410" lifetime="8276"/>
+        <process name="slui.exe" startTime="14388" endTime="18836" lifetime="4447"/>
+        <process name="userinit.exe" startTime="18847" endTime="46986" lifetime="28139"/>
+        <process name="BGINFO.EXE" startTime="19849" endTime="20721" lifetime="872"/>
+        <process name="xbootmgrSleep.exe" startTime="19888" endTime="142698" lifetime="122809"/>
+        <process name="SearchProtocolHost.exe" startTime="26362" endTime="86947" lifetime="60585"/>
+        <process name="SearchFilterHost.exe" startTime="26388" endTime="106949" lifetime="80561"/>
+        <process name="SearchProtocolHost.exe" startTime="26516" endTime="106944" lifetime="80428"/>
+        <process name="consent.exe" startTime="140376" endTime="142642" lifetime="2266"/>
+      </unexpectedShortlived>
+      <unexpectedVeryShortlived threshold="100">
+        <process name="autochk.exe" startTime="5687" endTime="5697" lifetime="9"/>
+        <process name="cygrunsrv.exe" startTime="12530" endTime="12597" lifetime="67"/>
+        <process name="GoogleCrashHandler.exe" startTime="12847" endTime="12893" lifetime="45"/>
+        <process name="lpksetup.exe" startTime="16424" endTime="16522" lifetime="98"/>
+        <process name="taskhost.exe" startTime="21721" endTime="21764" lifetime="42"/>
+        <process name="mscorsvw.exe" startTime="133599" endTime="133683" lifetime="84"/>
+        <process name="GoogleUpdate.exe" startTime="133926" endTime="134006" lifetime="80"/>
+        <process name="GoogleUpdate.exe" startTime="133975" endTime="134031" lifetime="56"/>
+        <process name="GoogleCrashHandler.exe" startTime="134017" endTime="134088" lifetime="70"/>
+        <process name="xbootmgr.exe" startTime="140360" endTime="140363" lifetime="2"/>
+      </unexpectedVeryShortlived>
+    </processSummary>
+    <timing bootDoneViaExplorer="20304" bootDoneViaPostBoot="32704" osLoaderDuration="975"
+            postBootRequiredIdleTime="10000" postBootDisturbance="2400"
+            pnpBootStartStartTime="51" pnpBootStartEndTime="3177" pnpBootStartDuration="3125"
+            pnpSystemStartStartTime="5120" pnpSystemStartEndTime="5462" pnpSystemStartDuration="341">
+      <interval name="PreSMSS" startTime="0" endTime="5467" duration="5467">
+        <perProcess>
+          <perProcessCPUUsage name="System" time="4615" percentOfInterval="84.42">
+            <cpuUsage priority="8" time="184" cumTime="184" ofProcess="3.99" ofInterval="3.37" cumOfProcess="3.99"/>
+            <cpuUsage priority="12" time="5" cumTime="189" ofProcess="0.11" ofInterval="0.09" cumOfProcess="4.10"/>
+            <cpuUsage priority="14" time="55" cumTime="244" ofProcess="1.19" ofInterval="1.01" cumOfProcess="5.29"/>
+            <cpuUsage priority="15" time="3905" cumTime="4149" ofProcess="84.62" ofInterval="71.43" cumOfProcess="89.90"/>
+            <cpuUsage priority="16" time="2" cumTime="4152" ofProcess="0.04" ofInterval="0.04" cumOfProcess="89.97"/>
+            <cpuUsage priority="31" time="463" cumTime="4615" ofProcess="10.03" ofInterval="8.47" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="Idle" time="833" percentOfInterval="15.24">
+            <cpuUsage priority="0" time="833" cumTime="833" ofProcess="100.00" ofInterval="15.24" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+        </perProcess>
+        <perPriority>
+          <perPriorityCPUUsage priority="0" time="833" ofInterval="15.24">
+            <cpuUsage process="Idle" time="833" ofPriority="100.00"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="8" time="184" ofInterval="3.37">
+            <cpuUsage process="System" time="184" ofPriority="100.00"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="14" time="55" ofInterval="1.01">
+            <cpuUsage process="System" time="55" ofPriority="100.00"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="15" time="3905" ofInterval="71.43">
+            <cpuUsage process="System" time="3905" ofPriority="100.00"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="31" time="463" ofInterval="8.47">
+            <cpuUsage process="System" time="463" ofPriority="100.00"/>
+          </perPriorityCPUUsage>
+        </perPriority>
+        <diskIO readBytes="177251840" readOps="4805" readTime="1390" avgBytesPerRead="36889" medBytesPerRead="36864"
+                writeBytes="57344" writeOps="12" writeTime="2" avgBytesPerWrite="4778" medBytesPerWrite="4096"
+                totalBytes="177309184" totalOps="4817" totalTime="1392">
+          <byFile>
+            <file name="Unknown (0x0)" readBytes="174715904" readOps="4796" readTime="1380" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="174715904" totalOps="4796" totalTime="1380"/>
+            <file name="ntdll.dll" readBytes="1316352" readOps="1" readTime="2" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="1316352" totalOps="1" totalTime="2"/>
+            <file name="$BitMap" readBytes="1048576" readOps="1" readTime="4" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="1048576" totalOps="1" totalTime="4"/>
+            <file name="$UsnJrnl:$J" readBytes="117760" readOps="1" readTime="0" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="117760" totalOps="1" totalTime="0"/>
+            <file name="$LogFile" readBytes="12288" readOps="3" readTime="1" writeBytes="57344" writeOps="12" writeTime="2"
+                  totalBytes="69632" totalOps="15" totalTime="3"/>
+            <file name="Unknown (0x87bb7d38)" readBytes="32768" readOps="1" readTime="0" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="32768" totalOps="1" totalTime="0"/>
+            <file name="$Mft" readBytes="8192" readOps="2" readTime="0" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="8192" totalOps="2" totalTime="0"/>
+          </byFile>
+          <byExtension>
+            <extension name="(none)" readBytes="175927296" readOps="4802" readTime="1386" writeBytes="57344" writeOps="12" writeTime="2"
+                       totalBytes="175984640" totalOps="4814" totalTime="1388"/>
+            <extension name=".dll" readBytes="1316352" readOps="1" readTime="2" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="1316352" totalOps="1" totalTime="2"/>
+            <extension name="$Mft" readBytes="8192" readOps="2" readTime="0" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="8192" totalOps="2" totalTime="0"/>
+          </byExtension>
+        </diskIO>
+      </interval>
+      <interval name="SMSSInit" startTime="5467" endTime="7682" duration="2214">
+        <perProcess>
+          <perProcessCPUUsage name="System" time="1815" percentOfInterval="81.94">
+            <cpuUsage priority="8" time="232" cumTime="232" ofProcess="12.78" ofInterval="10.47" cumOfProcess="12.78"/>
+            <cpuUsage priority="9" time="1" cumTime="234" ofProcess="0.06" ofInterval="0.05" cumOfProcess="12.89"/>
+            <cpuUsage priority="12" time="1212" cumTime="1446" ofProcess="66.78" ofInterval="54.72" cumOfProcess="79.67"/>
+            <cpuUsage priority="13" time="16" cumTime="1463" ofProcess="0.88" ofInterval="0.72" cumOfProcess="80.61"/>
+            <cpuUsage priority="15" time="352" cumTime="1815" ofProcess="19.39" ofInterval="15.89" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="csrss.exe" time="163" percentOfInterval="7.36">
+            <cpuUsage priority="13" time="110" cumTime="110" ofProcess="67.48" ofInterval="4.97" cumOfProcess="67.48"/>
+            <cpuUsage priority="14" time="52" cumTime="162" ofProcess="31.90" ofInterval="2.35" cumOfProcess="99.39"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="csrss.exe" time="134" percentOfInterval="6.05">
+            <cpuUsage priority="13" time="11" cumTime="11" ofProcess="8.21" ofInterval="0.50" cumOfProcess="8.21"/>
+            <cpuUsage priority="14" time="122" cumTime="133" ofProcess="91.04" ofInterval="5.51" cumOfProcess="99.25"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="smss.exe" time="48" percentOfInterval="2.17">
+            <cpuUsage priority="11" time="40" cumTime="40" ofProcess="83.33" ofInterval="1.81" cumOfProcess="83.33"/>
+            <cpuUsage priority="12" time="5" cumTime="46" ofProcess="10.42" ofInterval="0.23" cumOfProcess="95.83"/>
+            <cpuUsage priority="16" time="1" cumTime="48" ofProcess="2.08" ofInterval="0.05" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="smss.exe" time="33" percentOfInterval="1.49">
+            <cpuUsage priority="8" time="32" cumTime="32" ofProcess="96.97" ofInterval="1.44" cumOfProcess="96.97"/>
+            <cpuUsage priority="9" time="1" cumTime="33" ofProcess="3.03" ofInterval="0.05" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+        </perProcess>
+        <perPriority>
+          <perPriorityCPUUsage priority="8" time="264" ofInterval="11.92">
+            <cpuUsage process="System" time="232" ofPriority="87.88"/>
+            <cpuUsage process="smss.exe" time="32" ofPriority="12.12"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="11" time="40" ofInterval="1.81">
+            <cpuUsage process="smss.exe" time="40" ofPriority="100.00"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="12" time="1218" ofInterval="54.99">
+            <cpuUsage process="System" time="1212" ofPriority="99.51"/>
+            <cpuUsage process="smss.exe" time="5" ofPriority="0.41"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="13" time="137" ofInterval="6.19">
+            <cpuUsage process="csrss.exe" time="110" ofPriority="80.29"/>
+            <cpuUsage process="System" time="16" ofPriority="11.68"/>
+            <cpuUsage process="csrss.exe" time="11" ofPriority="8.03"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="14" time="174" ofInterval="7.86">
+            <cpuUsage process="csrss.exe" time="122" ofPriority="70.11"/>
+            <cpuUsage process="csrss.exe" time="52" ofPriority="29.89"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="15" time="352" ofInterval="15.89">
+            <cpuUsage process="System" time="352" ofPriority="100.00"/>
+          </perPriorityCPUUsage>
+        </perPriority>
+        <diskIO readBytes="37766656" readOps="5" readTime="77" avgBytesPerRead="7553331" medBytesPerRead="4096"
+                writeBytes="8536064" writeOps="29" writeTime="23" avgBytesPerWrite="294347" medBytesPerWrite="16384"
+                totalBytes="46302720" totalOps="34" totalTime="100">
+          <byFile>
+            <file name="SOFTWARE" readBytes="37691392" readOps="1" readTime="69" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="37691392" totalOps="1" totalTime="69"/>
+            <file name="boot_BASE+CSWITCH+DRIVERS+POWER_1_km_premerge.etl" readBytes="0" readOps="0" readTime="0" writeBytes="7340032" writeOps="7" writeTime="16"
+                  totalBytes="7340032" totalOps="7" totalTime="16"/>
+            <file name="ReadyBoot.etl" readBytes="0" readOps="0" readTime="0" writeBytes="1048576" writeOps="4" writeTime="2"
+                  totalBytes="1048576" totalOps="4" totalTime="2"/>
+            <file name="WdiContextLog.etl.003" readBytes="0" readOps="0" readTime="0" writeBytes="98304" writeOps="6" writeTime="1"
+                  totalBytes="98304" totalOps="6" totalTime="1"/>
+            <file name="{6cced301-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000002.regtrans-ms" readBytes="65536" readOps="1" readTime="0" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="65536" totalOps="1" totalTime="0"/>
+            <file name="$LogFile" readBytes="0" readOps="0" readTime="0" writeBytes="32768" writeOps="8" writeTime="1"
+                  totalBytes="32768" totalOps="8" totalTime="1"/>
+            <file name="bootstat.dat" readBytes="0" readOps="0" readTime="0" writeBytes="12288" writeOps="3" writeTime="0"
+                  totalBytes="12288" totalOps="3" totalTime="0"/>
+            <file name="$Mft" readBytes="8192" readOps="2" readTime="7" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="8192" totalOps="2" totalTime="7"/>
+            <file name="pagefile.sys" readBytes="0" readOps="0" readTime="0" writeBytes="4096" writeOps="1" writeTime="0"
+                  totalBytes="4096" totalOps="1" totalTime="0"/>
+            <file name="EtwRTEventLog-System.etl" readBytes="1536" readOps="1" readTime="0" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="1536" totalOps="1" totalTime="0"/>
+          </byFile>
+          <byExtension>
+            <extension name="(none)" readBytes="37691392" readOps="1" readTime="69" writeBytes="32768" writeOps="8" writeTime="1"
+                       totalBytes="37724160" totalOps="9" totalTime="70"/>
+            <extension name=".etl" readBytes="1536" readOps="1" readTime="0" writeBytes="8388608" writeOps="11" writeTime="19"
+                       totalBytes="8390144" totalOps="12" totalTime="19"/>
+            <extension name=".003" readBytes="0" readOps="0" readTime="0" writeBytes="98304" writeOps="6" writeTime="1"
+                       totalBytes="98304" totalOps="6" totalTime="1"/>
+            <extension name=".regtrans-ms" readBytes="65536" readOps="1" readTime="0" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="65536" totalOps="1" totalTime="0"/>
+            <extension name=".dat" readBytes="0" readOps="0" readTime="0" writeBytes="12288" writeOps="3" writeTime="0"
+                       totalBytes="12288" totalOps="3" totalTime="0"/>
+            <extension name="$Mft" readBytes="8192" readOps="2" readTime="7" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="8192" totalOps="2" totalTime="7"/>
+            <extension name=".sys" readBytes="0" readOps="0" readTime="0" writeBytes="4096" writeOps="1" writeTime="0"
+                       totalBytes="4096" totalOps="1" totalTime="0"/>
+          </byExtension>
+        </diskIO>
+      </interval>
+      <interval name="WinlogonInit" startTime="7682" endTime="19162" duration="11480">
+        <winlogon numNotifications="3">
+          <notification type="CreateSession" sessionId="1" startTime="9390" endTime="9643" duration="252">
+            <subscriber name="TrustedInstaller" startTime="9390" endTime="9397" duration="6"/>
+            <subscriber name="GPClient" startTime="9397" endTime="9634" duration="236"/>
+            <subscriber name="TermSrv" startTime="9634" endTime="9643" duration="9"/>
+          </notification>
+          <notification type="Logon" sessionId="1" startTime="10036" endTime="10138" duration="101">
+            <subscriber name="Profiles" startTime="10036" endTime="10130" duration="93"/>
+            <subscriber name="GPClient" startTime="10130" endTime="10130" duration="0"/>
+            <subscriber name="TermSrv" startTime="10130" endTime="10133" duration="2"/>
+            <subscriber name="Sens" startTime="10133" endTime="10138" duration="4"/>
+          </notification>
+          <notification type="StartShell" sessionId="1" startTime="18839" endTime="18844" duration="4">
+            <subscriber name="SessionEnv" startTime="18839" endTime="18841" duration="2"/>
+            <subscriber name="GPClient" startTime="18841" endTime="18841" duration="0"/>
+            <subscriber name="Sens" startTime="18841" endTime="18843" duration="1"/>
+            <subscriber name="TermSrv" startTime="18843" endTime="18844" duration="0"/>
+          </notification>
+        </winlogon>
+        <perProcess>
+          <perProcessCPUUsage name="Idle" time="2698" percentOfInterval="23.50">
+            <cpuUsage priority="0" time="2698" cumTime="2698" ofProcess="100.00" ofInterval="23.50" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="System" time="1502" percentOfInterval="13.08">
+            <cpuUsage priority="0" time="28" cumTime="28" ofProcess="1.86" ofInterval="0.24" cumOfProcess="1.86"/>
+            <cpuUsage priority="1" time="22" cumTime="50" ofProcess="1.46" ofInterval="0.19" cumOfProcess="3.33"/>
+            <cpuUsage priority="8" time="7" cumTime="58" ofProcess="0.47" ofInterval="0.06" cumOfProcess="3.86"/>
+            <cpuUsage priority="12" time="168" cumTime="227" ofProcess="11.19" ofInterval="1.46" cumOfProcess="15.11"/>
+            <cpuUsage priority="13" time="28" cumTime="256" ofProcess="1.86" ofInterval="0.24" cumOfProcess="17.04"/>
+            <cpuUsage priority="14" time="1" cumTime="257" ofProcess="0.07" ofInterval="0.01" cumOfProcess="17.11"/>
+            <cpuUsage priority="15" time="1226" cumTime="1483" ofProcess="81.62" ofInterval="10.68" cumOfProcess="98.74"/>
+            <cpuUsage priority="16" time="19" cumTime="1502" ofProcess="1.26" ofInterval="0.17" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="TrustedInstaller.exe" time="900" percentOfInterval="7.84">
+            <cpuUsage priority="8" time="697" cumTime="697" ofProcess="77.44" ofInterval="6.07" cumOfProcess="77.44"/>
+            <cpuUsage priority="9" time="197" cumTime="895" ofProcess="21.89" ofInterval="1.72" cumOfProcess="99.44"/>
+            <cpuUsage priority="16" time="4" cumTime="900" ofProcess="0.44" ofInterval="0.03" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="sppsvc.exe" time="860" percentOfInterval="7.49">
+            <cpuUsage priority="8" time="735" cumTime="735" ofProcess="85.47" ofInterval="6.40" cumOfProcess="85.47"/>
+            <cpuUsage priority="9" time="125" cumTime="860" ofProcess="14.53" ofInterval="1.09" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="svchost.exe" time="570" percentOfInterval="4.97">
+            <cpuUsage priority="8" time="185" cumTime="185" ofProcess="32.46" ofInterval="1.61" cumOfProcess="32.46"/>
+            <cpuUsage priority="9" time="373" cumTime="558" ofProcess="65.44" ofInterval="3.25" cumOfProcess="97.89"/>
+            <cpuUsage priority="10" time="9" cumTime="567" ofProcess="1.58" ofInterval="0.08" cumOfProcess="99.47"/>
+            <cpuUsage priority="16" time="1" cumTime="569" ofProcess="0.18" ofInterval="0.01" cumOfProcess="99.82"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="winlogon.exe" time="514" percentOfInterval="4.48">
+            <cpuUsage priority="9" time="4" cumTime="4" ofProcess="0.78" ofInterval="0.03" cumOfProcess="0.78"/>
+            <cpuUsage priority="13" time="337" cumTime="341" ofProcess="65.56" ofInterval="2.94" cumOfProcess="66.34"/>
+            <cpuUsage priority="14" time="104" cumTime="446" ofProcess="20.23" ofInterval="0.91" cumOfProcess="86.77"/>
+            <cpuUsage priority="15" time="67" cumTime="513" ofProcess="13.04" ofInterval="0.58" cumOfProcess="99.81"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="LogonUI.exe" time="454" percentOfInterval="3.95">
+            <cpuUsage priority="9" time="3" cumTime="3" ofProcess="0.66" ofInterval="0.03" cumOfProcess="0.66"/>
+            <cpuUsage priority="13" time="155" cumTime="159" ofProcess="34.14" ofInterval="1.35" cumOfProcess="35.02"/>
+            <cpuUsage priority="14" time="62" cumTime="221" ofProcess="13.66" ofInterval="0.54" cumOfProcess="48.68"/>
+            <cpuUsage priority="15" time="232" cumTime="453" ofProcess="51.10" ofInterval="2.02" cumOfProcess="99.78"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="lsass.exe" time="427" percentOfInterval="3.72">
+            <cpuUsage priority="9" time="234" cumTime="234" ofProcess="54.80" ofInterval="2.04" cumOfProcess="54.80"/>
+            <cpuUsage priority="10" time="146" cumTime="381" ofProcess="34.19" ofInterval="1.27" cumOfProcess="89.23"/>
+            <cpuUsage priority="11" time="41" cumTime="423" ofProcess="9.60" ofInterval="0.36" cumOfProcess="99.06"/>
+            <cpuUsage priority="16" time="3" cumTime="426" ofProcess="0.70" ofInterval="0.03" cumOfProcess="99.77"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="services.exe" time="376" percentOfInterval="3.28">
+            <cpuUsage priority="8" time="63" cumTime="63" ofProcess="16.76" ofInterval="0.55" cumOfProcess="16.76"/>
+            <cpuUsage priority="9" time="277" cumTime="340" ofProcess="73.67" ofInterval="2.41" cumOfProcess="90.43"/>
+            <cpuUsage priority="10" time="36" cumTime="376" ofProcess="9.57" ofInterval="0.31" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="slui.exe" time="324" percentOfInterval="2.82">
+            <cpuUsage priority="8" time="83" cumTime="83" ofProcess="25.62" ofInterval="0.72" cumOfProcess="25.62"/>
+            <cpuUsage priority="9" time="173" cumTime="256" ofProcess="53.40" ofInterval="1.51" cumOfProcess="79.01"/>
+            <cpuUsage priority="10" time="33" cumTime="290" ofProcess="10.19" ofInterval="0.29" cumOfProcess="89.51"/>
+            <cpuUsage priority="11" time="10" cumTime="301" ofProcess="3.09" ofInterval="0.09" cumOfProcess="92.90"/>
+            <cpuUsage priority="12" time="23" cumTime="324" ofProcess="7.10" ofInterval="0.20" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="svchost.exe" time="291" percentOfInterval="2.53">
+            <cpuUsage priority="1" time="1" cumTime="1" ofProcess="0.34" ofInterval="0.01" cumOfProcess="0.34"/>
+            <cpuUsage priority="8" time="89" cumTime="90" ofProcess="30.58" ofInterval="0.78" cumOfProcess="30.93"/>
+            <cpuUsage priority="9" time="200" cumTime="290" ofProcess="68.73" ofInterval="1.74" cumOfProcess="99.66"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="svchost.exe" time="270" percentOfInterval="2.35">
+            <cpuUsage priority="8" time="64" cumTime="64" ofProcess="23.70" ofInterval="0.56" cumOfProcess="23.70"/>
+            <cpuUsage priority="9" time="201" cumTime="265" ofProcess="74.44" ofInterval="1.75" cumOfProcess="98.15"/>
+            <cpuUsage priority="10" time="5" cumTime="270" ofProcess="1.85" ofInterval="0.04" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="svchost.exe" time="254" percentOfInterval="2.21">
+            <cpuUsage priority="8" time="138" cumTime="138" ofProcess="54.33" ofInterval="1.20" cumOfProcess="54.33"/>
+            <cpuUsage priority="9" time="115" cumTime="254" ofProcess="45.28" ofInterval="1.00" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="svchost.exe" time="228" percentOfInterval="1.99">
+            <cpuUsage priority="8" time="55" cumTime="55" ofProcess="24.12" ofInterval="0.48" cumOfProcess="24.12"/>
+            <cpuUsage priority="9" time="161" cumTime="217" ofProcess="70.61" ofInterval="1.40" cumOfProcess="95.18"/>
+            <cpuUsage priority="10" time="10" cumTime="228" ofProcess="4.39" ofInterval="0.09" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="csrss.exe" time="222" percentOfInterval="1.93">
+            <cpuUsage priority="12" time="5" cumTime="5" ofProcess="2.25" ofInterval="0.04" cumOfProcess="2.25"/>
+            <cpuUsage priority="13" time="2" cumTime="8" ofProcess="0.90" ofInterval="0.02" cumOfProcess="3.60"/>
+            <cpuUsage priority="14" time="194" cumTime="202" ofProcess="87.39" ofInterval="1.69" cumOfProcess="90.99"/>
+            <cpuUsage priority="15" time="20" cumTime="222" ofProcess="9.01" ofInterval="0.17" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="svchost.exe" time="219" percentOfInterval="1.91">
+            <cpuUsage priority="8" time="140" cumTime="140" ofProcess="63.93" ofInterval="1.22" cumOfProcess="63.93"/>
+            <cpuUsage priority="9" time="64" cumTime="205" ofProcess="29.22" ofInterval="0.56" cumOfProcess="93.61"/>
+            <cpuUsage priority="10" time="3" cumTime="208" ofProcess="1.37" ofInterval="0.03" cumOfProcess="94.98"/>
+            <cpuUsage priority="16" time="11" cumTime="219" ofProcess="5.02" ofInterval="0.10" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="wininit.exe" time="139" percentOfInterval="1.21">
+            <cpuUsage priority="13" time="58" cumTime="58" ofProcess="41.73" ofInterval="0.51" cumOfProcess="41.73"/>
+            <cpuUsage priority="14" time="5" cumTime="64" ofProcess="3.60" ofInterval="0.04" cumOfProcess="46.04"/>
+            <cpuUsage priority="15" time="74" cumTime="139" ofProcess="53.24" ofInterval="0.64" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="csrss.exe" time="135" percentOfInterval="1.18">
+            <cpuUsage priority="14" time="132" cumTime="132" ofProcess="97.78" ofInterval="1.15" cumOfProcess="97.78"/>
+            <cpuUsage priority="15" time="2" cumTime="134" ofProcess="1.48" ofInterval="0.02" cumOfProcess="99.26"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="svchost.exe" time="124" percentOfInterval="1.08">
+            <cpuUsage priority="7" time="2" cumTime="2" ofProcess="1.61" ofInterval="0.02" cumOfProcess="1.61"/>
+            <cpuUsage priority="8" time="29" cumTime="32" ofProcess="23.39" ofInterval="0.25" cumOfProcess="25.81"/>
+            <cpuUsage priority="9" time="88" cumTime="121" ofProcess="70.97" ofInterval="0.77" cumOfProcess="97.58"/>
+            <cpuUsage priority="10" time="3" cumTime="124" ofProcess="2.42" ofInterval="0.03" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+        </perProcess>
+        <perPriority>
+          <perPriorityCPUUsage priority="0" time="2727" ofInterval="23.75">
+            <cpuUsage process="Idle" time="2698" ofPriority="98.94"/>
+            <cpuUsage process="System" time="28" ofPriority="1.03"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="8" time="2291" ofInterval="19.96">
+            <cpuUsage process="sppsvc.exe" time="735" ofPriority="32.08"/>
+            <cpuUsage process="TrustedInstaller.exe" time="697" ofPriority="30.42"/>
+            <cpuUsage process="svchost.exe" time="185" ofPriority="8.08"/>
+            <cpuUsage process="svchost.exe" time="140" ofPriority="6.11"/>
+            <cpuUsage process="svchost.exe" time="138" ofPriority="6.02"/>
+            <cpuUsage process="svchost.exe" time="89" ofPriority="3.88"/>
+            <cpuUsage process="slui.exe" time="83" ofPriority="3.62"/>
+            <cpuUsage process="svchost.exe" time="64" ofPriority="2.79"/>
+            <cpuUsage process="services.exe" time="63" ofPriority="2.75"/>
+            <cpuUsage process="svchost.exe" time="55" ofPriority="2.40"/>
+            <cpuUsage process="svchost.exe" time="29" ofPriority="1.27"/>
+            <cpuUsage process="System" time="7" ofPriority="0.31"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="9" time="2220" ofInterval="19.34">
+            <cpuUsage process="svchost.exe" time="373" ofPriority="16.80"/>
+            <cpuUsage process="services.exe" time="277" ofPriority="12.48"/>
+            <cpuUsage process="lsass.exe" time="234" ofPriority="10.54"/>
+            <cpuUsage process="svchost.exe" time="201" ofPriority="9.05"/>
+            <cpuUsage process="svchost.exe" time="200" ofPriority="9.01"/>
+            <cpuUsage process="TrustedInstaller.exe" time="197" ofPriority="8.87"/>
+            <cpuUsage process="slui.exe" time="173" ofPriority="7.79"/>
+            <cpuUsage process="svchost.exe" time="161" ofPriority="7.25"/>
+            <cpuUsage process="sppsvc.exe" time="125" ofPriority="5.63"/>
+            <cpuUsage process="svchost.exe" time="115" ofPriority="5.18"/>
+            <cpuUsage process="svchost.exe" time="88" ofPriority="3.96"/>
+            <cpuUsage process="svchost.exe" time="64" ofPriority="2.88"/>
+            <cpuUsage process="winlogon.exe" time="4" ofPriority="0.18"/>
+            <cpuUsage process="LogonUI.exe" time="3" ofPriority="0.14"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="10" time="247" ofInterval="2.15">
+            <cpuUsage process="lsass.exe" time="146" ofPriority="59.11"/>
+            <cpuUsage process="services.exe" time="36" ofPriority="14.57"/>
+            <cpuUsage process="slui.exe" time="33" ofPriority="13.36"/>
+            <cpuUsage process="svchost.exe" time="10" ofPriority="4.05"/>
+            <cpuUsage process="svchost.exe" time="9" ofPriority="3.64"/>
+            <cpuUsage process="svchost.exe" time="5" ofPriority="2.02"/>
+            <cpuUsage process="svchost.exe" time="3" ofPriority="1.21"/>
+            <cpuUsage process="svchost.exe" time="3" ofPriority="1.21"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="12" time="197" ofInterval="1.72">
+            <cpuUsage process="System" time="168" ofPriority="85.28"/>
+            <cpuUsage process="slui.exe" time="23" ofPriority="11.68"/>
+            <cpuUsage process="csrss.exe" time="5" ofPriority="2.54"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="13" time="583" ofInterval="5.08">
+            <cpuUsage process="winlogon.exe" time="337" ofPriority="57.80"/>
+            <cpuUsage process="LogonUI.exe" time="155" ofPriority="26.59"/>
+            <cpuUsage process="wininit.exe" time="58" ofPriority="9.95"/>
+            <cpuUsage process="System" time="28" ofPriority="4.80"/>
+            <cpuUsage process="csrss.exe" time="2" ofPriority="0.34"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="14" time="500" ofInterval="4.36">
+            <cpuUsage process="csrss.exe" time="194" ofPriority="38.80"/>
+            <cpuUsage process="csrss.exe" time="132" ofPriority="26.40"/>
+            <cpuUsage process="winlogon.exe" time="104" ofPriority="20.80"/>
+            <cpuUsage process="LogonUI.exe" time="62" ofPriority="12.40"/>
+            <cpuUsage process="wininit.exe" time="5" ofPriority="1.00"/>
+            <cpuUsage process="System" time="1" ofPriority="0.20"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="15" time="1623" ofInterval="14.14">
+            <cpuUsage process="System" time="1226" ofPriority="75.54"/>
+            <cpuUsage process="LogonUI.exe" time="232" ofPriority="14.29"/>
+            <cpuUsage process="wininit.exe" time="74" ofPriority="4.56"/>
+            <cpuUsage process="winlogon.exe" time="67" ofPriority="4.13"/>
+            <cpuUsage process="csrss.exe" time="20" ofPriority="1.23"/>
+            <cpuUsage process="csrss.exe" time="2" ofPriority="0.12"/>
+          </perPriorityCPUUsage>
+        </perPriority>
+        <diskIO readBytes="47199744" readOps="446" readTime="197" avgBytesPerRead="105829" medBytesPerRead="32768"
+                writeBytes="26966016" writeOps="447" writeTime="136" avgBytesPerWrite="60326" medBytesPerWrite="4096"
+                totalBytes="74165760" totalOps="893" totalTime="333">
+          <byFile>
+            <file name="COMPONENTS" readBytes="37482496" readOps="1" readTime="85" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="37482496" totalOps="1" totalTime="85"/>
+            <file name="boot_BASE+CSWITCH+DRIVERS+POWER_1_km_premerge.etl" readBytes="0" readOps="0" readTime="0" writeBytes="15728640" writeOps="17" writeTime="35"
+                  totalBytes="15728640" totalOps="17" totalTime="35"/>
+            <file name="BGInfo.bmp" readBytes="7488512" readOps="230" readTime="46" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="7488512" totalOps="230" totalTime="46"/>
+            <file name="boot_BASE+CSWITCH+DRIVERS+POWER_1_um_premerge.etl" readBytes="0" readOps="0" readTime="0" writeBytes="2097152" writeOps="5" writeTime="5"
+                  totalBytes="2097152" totalOps="5" totalTime="5"/>
+            <file name="BootCKCL.etl" readBytes="0" readOps="0" readTime="0" writeBytes="2097152" writeOps="17" writeTime="6"
+                  totalBytes="2097152" totalOps="17" totalTime="6"/>
+            <file name="ReadyBoot.etl" readBytes="0" readOps="0" readTime="0" writeBytes="1310720" writeOps="5" writeTime="3"
+                  totalBytes="1310720" totalOps="5" totalTime="3"/>
+            <file name="OBJECTS.DATA" readBytes="1064960" readOps="109" readTime="35" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="1064960" totalOps="109" totalTime="35"/>
+            <file name="COMPONENTS{6cced2ec-6e01-11de-8bed-001e0bcd1824}.TxR.0.regtrans-ms" readBytes="0" readOps="0" readTime="0" writeBytes="1049088" writeOps="4" writeTime="1"
+                  totalBytes="1049088" totalOps="4" totalTime="1"/>
+            <file name="COMPONENTS{6cced2ec-6e01-11de-8bed-001e0bcd1824}.TxR.2.regtrans-ms" readBytes="0" readOps="0" readTime="0" writeBytes="1048576" writeOps="3" writeTime="2"
+                  totalBytes="1048576" totalOps="3" totalTime="2"/>
+            <file name="COMPONENTS{6cced2ec-6e01-11de-8bed-001e0bcd1824}.TxR.1.regtrans-ms" readBytes="0" readOps="0" readTime="0" writeBytes="1048576" writeOps="3" writeTime="1"
+                  totalBytes="1048576" totalOps="3" totalTime="1"/>
+            <file name="$LogFile" readBytes="0" readOps="0" readTime="0" writeBytes="966656" writeOps="164" writeTime="31"
+                  totalBytes="966656" totalOps="164" totalTime="31"/>
+          </byFile>
+          <byExtension>
+            <extension name="(none)" readBytes="37490688" readOps="3" readTime="88" writeBytes="1009664" writeOps="177" writeTime="33"
+                       totalBytes="38500352" totalOps="180" totalTime="122"/>
+            <extension name=".etl" readBytes="20480" readOps="3" readTime="0" writeBytes="21450752" writeOps="67" writeTime="56"
+                       totalBytes="21471232" totalOps="70" totalTime="57"/>
+            <extension name=".bmp" readBytes="7488512" readOps="230" readTime="46" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="7488512" totalOps="230" totalTime="46"/>
+            <extension name=".regtrans-ms" readBytes="131072" readOps="2" readTime="0" writeBytes="3147776" writeOps="12" writeTime="6"
+                       totalBytes="3278848" totalOps="14" totalTime="7"/>
+            <extension name=".DATA" readBytes="1064960" readOps="109" readTime="35" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="1064960" totalOps="109" totalTime="35"/>
+            <extension name=".BTR" readBytes="589824" readOps="72" readTime="12" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="589824" totalOps="72" totalTime="12"/>
+            <extension name=".blf" readBytes="0" readOps="0" readTime="0" writeBytes="535552" writeOps="19" writeTime="3"
+                       totalBytes="535552" totalOps="19" totalTime="3"/>
+            <extension name="$Mft" readBytes="77824" readOps="19" readTime="8" writeBytes="368640" writeOps="82" writeTime="14"
+                       totalBytes="446464" totalOps="101" totalTime="22"/>
+            <extension name=".evtx" readBytes="300544" readOps="6" readTime="2" writeBytes="122880" writeOps="15" writeTime="2"
+                       totalBytes="423424" totalOps="21" totalTime="5"/>
+            <extension name=".log" readBytes="3072" readOps="1" readTime="0" writeBytes="205824" writeOps="53" writeTime="12"
+                       totalBytes="208896" totalOps="54" totalTime="13"/>
+            <extension name=".003" readBytes="0" readOps="0" readTime="0" writeBytes="65536" writeOps="4" writeTime="1"
+                       totalBytes="65536" totalOps="4" totalTime="1"/>
+          </byExtension>
+        </diskIO>
+      </interval>
+      <interval name="ExplorerInit" startTime="19162" endTime="20304" duration="1141">
+        <perProcess>
+          <perProcessCPUUsage name="explorer.exe" time="634" percentOfInterval="55.52">
+            <cpuUsage priority="8" time="1" cumTime="1" ofProcess="0.16" ofInterval="0.09" cumOfProcess="0.16"/>
+            <cpuUsage priority="9" time="25" cumTime="27" ofProcess="3.94" ofInterval="2.19" cumOfProcess="4.26"/>
+            <cpuUsage priority="10" time="4" cumTime="32" ofProcess="0.63" ofInterval="0.35" cumOfProcess="5.05"/>
+            <cpuUsage priority="13" time="34" cumTime="66" ofProcess="5.36" ofInterval="2.98" cumOfProcess="10.41"/>
+            <cpuUsage priority="14" time="68" cumTime="134" ofProcess="10.73" ofInterval="5.95" cumOfProcess="21.14"/>
+            <cpuUsage priority="15" time="498" cumTime="633" ofProcess="78.55" ofInterval="43.61" cumOfProcess="99.84"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="System" time="137" percentOfInterval="12.00">
+            <cpuUsage priority="12" time="2" cumTime="2" ofProcess="1.46" ofInterval="0.18" cumOfProcess="1.46"/>
+            <cpuUsage priority="13" time="1" cumTime="4" ofProcess="0.73" ofInterval="0.09" cumOfProcess="2.92"/>
+            <cpuUsage priority="14" time="2" cumTime="6" ofProcess="1.46" ofInterval="0.18" cumOfProcess="4.38"/>
+            <cpuUsage priority="15" time="129" cumTime="136" ofProcess="94.16" ofInterval="11.30" cumOfProcess="99.27"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="lsass.exe" time="103" percentOfInterval="9.02">
+            <cpuUsage priority="9" time="103" cumTime="103" ofProcess="100.00" ofInterval="9.02" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="csrss.exe" time="96" percentOfInterval="8.41">
+            <cpuUsage priority="13" time="8" cumTime="8" ofProcess="8.33" ofInterval="0.70" cumOfProcess="8.33"/>
+            <cpuUsage priority="14" time="85" cumTime="93" ofProcess="88.54" ofInterval="7.44" cumOfProcess="96.88"/>
+            <cpuUsage priority="15" time="2" cumTime="96" ofProcess="2.08" ofInterval="0.18" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="BGINFO.EXE" time="73" percentOfInterval="6.39">
+            <cpuUsage priority="8" time="16" cumTime="16" ofProcess="21.92" ofInterval="1.40" cumOfProcess="21.92"/>
+            <cpuUsage priority="9" time="8" cumTime="25" ofProcess="10.96" ofInterval="0.70" cumOfProcess="34.25"/>
+            <cpuUsage priority="10" time="47" cumTime="73" ofProcess="64.38" ofInterval="4.12" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="xbootmgrSleep.exe" time="29" percentOfInterval="2.54">
+            <cpuUsage priority="8" time="1" cumTime="1" ofProcess="3.45" ofInterval="0.09" cumOfProcess="3.45"/>
+            <cpuUsage priority="9" time="8" cumTime="9" ofProcess="27.59" ofInterval="0.70" cumOfProcess="31.03"/>
+            <cpuUsage priority="11" time="19" cumTime="29" ofProcess="65.52" ofInterval="1.66" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="VBoxTray.exe" time="23" percentOfInterval="2.01">
+            <cpuUsage priority="8" time="3" cumTime="3" ofProcess="13.04" ofInterval="0.26" cumOfProcess="13.04"/>
+            <cpuUsage priority="9" time="19" cumTime="23" ofProcess="82.61" ofInterval="1.66" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+        </perProcess>
+        <perPriority>
+          <perPriorityCPUUsage priority="8" time="23" ofInterval="2.01">
+            <cpuUsage process="BGINFO.EXE" time="16" ofPriority="69.57"/>
+            <cpuUsage process="VBoxTray.exe" time="3" ofPriority="13.04"/>
+            <cpuUsage process="explorer.exe" time="1" ofPriority="4.35"/>
+            <cpuUsage process="xbootmgrSleep.exe" time="1" ofPriority="4.35"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="9" time="166" ofInterval="14.54">
+            <cpuUsage process="lsass.exe" time="103" ofPriority="62.05"/>
+            <cpuUsage process="explorer.exe" time="25" ofPriority="15.06"/>
+            <cpuUsage process="VBoxTray.exe" time="19" ofPriority="11.45"/>
+            <cpuUsage process="BGINFO.EXE" time="8" ofPriority="4.82"/>
+            <cpuUsage process="xbootmgrSleep.exe" time="8" ofPriority="4.82"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="10" time="52" ofInterval="4.55">
+            <cpuUsage process="BGINFO.EXE" time="47" ofPriority="90.38"/>
+            <cpuUsage process="explorer.exe" time="4" ofPriority="7.69"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="11" time="19" ofInterval="1.66">
+            <cpuUsage process="xbootmgrSleep.exe" time="19" ofPriority="100.00"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="13" time="44" ofInterval="3.85">
+            <cpuUsage process="explorer.exe" time="34" ofPriority="77.27"/>
+            <cpuUsage process="csrss.exe" time="8" ofPriority="18.18"/>
+            <cpuUsage process="System" time="1" ofPriority="2.27"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="14" time="156" ofInterval="13.66">
+            <cpuUsage process="csrss.exe" time="85" ofPriority="54.49"/>
+            <cpuUsage process="explorer.exe" time="68" ofPriority="43.59"/>
+            <cpuUsage process="System" time="2" ofPriority="1.28"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="15" time="630" ofInterval="55.17">
+            <cpuUsage process="explorer.exe" time="498" ofPriority="79.05"/>
+            <cpuUsage process="System" time="129" ofPriority="20.48"/>
+            <cpuUsage process="csrss.exe" time="2" ofPriority="0.32"/>
+          </perPriorityCPUUsage>
+        </perPriority>
+        <diskIO readBytes="2864128" readOps="24" readTime="13" avgBytesPerRead="119338" medBytesPerRead="12288"
+                writeBytes="2834432" writeOps="16" writeTime="9" avgBytesPerWrite="177152" medBytesPerWrite="4096"
+                totalBytes="5698560" totalOps="40" totalTime="22">
+          <byFile>
+            <file name="IconCache.db" readBytes="2619904" readOps="5" readTime="6" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="2619904" totalOps="5" totalTime="6"/>
+            <file name="boot_BASE+CSWITCH+DRIVERS+POWER_1_km_premerge.etl" readBytes="0" readOps="0" readTime="0" writeBytes="2097152" writeOps="2" writeTime="4"
+                  totalBytes="2097152" totalOps="2" totalTime="4"/>
+            <file name="boot_BASE+CSWITCH+DRIVERS+POWER_1_um_premerge.etl" readBytes="0" readOps="0" readTime="0" writeBytes="524288" writeOps="1" writeTime="1"
+                  totalBytes="524288" totalOps="1" totalTime="1"/>
+            <file name="themeui.dll" readBytes="141824" readOps="7" readTime="2" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="141824" totalOps="7" totalTime="2"/>
+            <file name="BootCKCL.etl" readBytes="0" readOps="0" readTime="0" writeBytes="131072" writeOps="1" writeTime="0"
+                  totalBytes="131072" totalOps="1" totalTime="0"/>
+            <file name="{AFBF9F1A-8EE8-4C77-AF34-C647E37CA0D9}.1.ver0x0000000000000019.db" readBytes="61952" readOps="2" readTime="0" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="61952" totalOps="2" totalTime="0"/>
+            <file name="$Mft" readBytes="8192" readOps="2" readTime="1" writeBytes="32768" writeOps="7" writeTime="1"
+                  totalBytes="40960" totalOps="9" totalTime="2"/>
+            <file name="$LogFile" readBytes="0" readOps="0" readTime="0" writeBytes="32768" writeOps="4" writeTime="1"
+                  totalBytes="32768" totalOps="4" totalTime="1"/>
+            <file name="xbootmgrSleep.exe" readBytes="25600" readOps="7" readTime="1" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="25600" totalOps="7" totalTime="1"/>
+            <file name="WdiContextLog.etl.003" readBytes="0" readOps="0" readTime="0" writeBytes="16384" writeOps="1" writeTime="0"
+                  totalBytes="16384" totalOps="1" totalTime="0"/>
+            <file name="thumbcache_idx.db" readBytes="6656" readOps="1" readTime="0" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="6656" totalOps="1" totalTime="0"/>
+          </byFile>
+          <byExtension>
+            <extension name=".etl" readBytes="0" readOps="0" readTime="0" writeBytes="2752512" writeOps="4" writeTime="6"
+                       totalBytes="2752512" totalOps="4" totalTime="6"/>
+            <extension name=".db" readBytes="2688512" readOps="8" readTime="7" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="2688512" totalOps="8" totalTime="7"/>
+            <extension name=".dll" readBytes="141824" readOps="7" readTime="2" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="141824" totalOps="7" totalTime="2"/>
+            <extension name="$Mft" readBytes="8192" readOps="2" readTime="1" writeBytes="32768" writeOps="7" writeTime="1"
+                       totalBytes="40960" totalOps="9" totalTime="2"/>
+            <extension name="(none)" readBytes="0" readOps="0" readTime="0" writeBytes="32768" writeOps="4" writeTime="1"
+                       totalBytes="32768" totalOps="4" totalTime="1"/>
+            <extension name=".exe" readBytes="25600" readOps="7" readTime="1" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="25600" totalOps="7" totalTime="1"/>
+            <extension name=".003" readBytes="0" readOps="0" readTime="0" writeBytes="16384" writeOps="1" writeTime="0"
+                       totalBytes="16384" totalOps="1" totalTime="0"/>
+          </byExtension>
+        </diskIO>
+      </interval>
+      <interval name="PostExplorerPeriod" startTime="20304" endTime="32704" duration="12400">
+        <perProcess>
+          <perProcessCPUUsage name="Idle" time="10176" percentOfInterval="82.06">
+            <cpuUsage priority="0" time="10176" cumTime="10176" ofProcess="100.00" ofInterval="82.06" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="explorer.exe" time="605" percentOfInterval="4.88">
+            <cpuUsage priority="8" time="46" cumTime="46" ofProcess="7.60" ofInterval="0.37" cumOfProcess="7.60"/>
+            <cpuUsage priority="9" time="144" cumTime="191" ofProcess="23.80" ofInterval="1.16" cumOfProcess="31.57"/>
+            <cpuUsage priority="10" time="346" cumTime="537" ofProcess="57.19" ofInterval="2.79" cumOfProcess="88.76"/>
+            <cpuUsage priority="11" time="66" cumTime="603" ofProcess="10.91" ofInterval="0.53" cumOfProcess="99.67"/>
+            <cpuUsage priority="15" time="1" cumTime="605" ofProcess="0.17" ofInterval="0.01" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="System" time="342" percentOfInterval="2.76">
+            <cpuUsage priority="1" time="6" cumTime="6" ofProcess="1.75" ofInterval="0.05" cumOfProcess="1.75"/>
+            <cpuUsage priority="8" time="1" cumTime="8" ofProcess="0.29" ofInterval="0.01" cumOfProcess="2.34"/>
+            <cpuUsage priority="12" time="22" cumTime="30" ofProcess="6.43" ofInterval="0.18" cumOfProcess="8.77"/>
+            <cpuUsage priority="13" time="19" cumTime="50" ofProcess="5.56" ofInterval="0.15" cumOfProcess="14.62"/>
+            <cpuUsage priority="15" time="246" cumTime="296" ofProcess="71.93" ofInterval="1.98" cumOfProcess="86.55"/>
+            <cpuUsage priority="17" time="44" cumTime="341" ofProcess="12.87" ofInterval="0.35" cumOfProcess="99.71"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="SearchIndexer.exe" time="283" percentOfInterval="2.28">
+            <cpuUsage priority="4" time="4" cumTime="4" ofProcess="1.41" ofInterval="0.03" cumOfProcess="1.41"/>
+            <cpuUsage priority="7" time="4" cumTime="9" ofProcess="1.41" ofInterval="0.03" cumOfProcess="3.18"/>
+            <cpuUsage priority="8" time="125" cumTime="134" ofProcess="44.17" ofInterval="1.01" cumOfProcess="47.35"/>
+            <cpuUsage priority="9" time="132" cumTime="267" ofProcess="46.64" ofInterval="1.06" cumOfProcess="94.35"/>
+            <cpuUsage priority="16" time="16" cumTime="283" ofProcess="5.65" ofInterval="0.13" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="csrss.exe" time="207" percentOfInterval="1.67">
+            <cpuUsage priority="13" time="40" cumTime="40" ofProcess="19.32" ofInterval="0.32" cumOfProcess="19.32"/>
+            <cpuUsage priority="14" time="165" cumTime="206" ofProcess="79.71" ofInterval="1.33" cumOfProcess="99.52"/>
+            <cpuUsage priority="15" time="1" cumTime="207" ofProcess="0.48" ofInterval="0.01" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="BGINFO.EXE" time="167" percentOfInterval="1.35">
+            <cpuUsage priority="8" time="72" cumTime="72" ofProcess="43.11" ofInterval="0.58" cumOfProcess="43.11"/>
+            <cpuUsage priority="9" time="8" cumTime="81" ofProcess="4.79" ofInterval="0.06" cumOfProcess="48.50"/>
+            <cpuUsage priority="11" time="20" cumTime="101" ofProcess="11.98" ofInterval="0.16" cumOfProcess="60.48"/>
+            <cpuUsage priority="12" time="66" cumTime="167" ofProcess="39.52" ofInterval="0.53" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+        </perProcess>
+        <perPriority>
+          <perPriorityCPUUsage priority="0" time="10176" ofInterval="82.06">
+            <cpuUsage process="Idle" time="10176" ofPriority="100.00"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="8" time="246" ofInterval="1.98">
+            <cpuUsage process="SearchIndexer.exe" time="125" ofPriority="50.81"/>
+            <cpuUsage process="BGINFO.EXE" time="72" ofPriority="29.27"/>
+            <cpuUsage process="explorer.exe" time="46" ofPriority="18.70"/>
+            <cpuUsage process="System" time="1" ofPriority="0.41"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="9" time="285" ofInterval="2.30">
+            <cpuUsage process="explorer.exe" time="144" ofPriority="50.53"/>
+            <cpuUsage process="SearchIndexer.exe" time="132" ofPriority="46.32"/>
+            <cpuUsage process="BGINFO.EXE" time="8" ofPriority="2.81"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="10" time="346" ofInterval="2.79">
+            <cpuUsage process="explorer.exe" time="346" ofPriority="100.00"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="14" time="165" ofInterval="1.33">
+            <cpuUsage process="csrss.exe" time="165" ofPriority="100.00"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="15" time="249" ofInterval="2.01">
+            <cpuUsage process="System" time="246" ofPriority="98.80"/>
+            <cpuUsage process="explorer.exe" time="1" ofPriority="0.40"/>
+            <cpuUsage process="csrss.exe" time="1" ofPriority="0.40"/>
+          </perPriorityCPUUsage>
+        </perPriority>
+        <diskIO readBytes="1870336" readOps="35" readTime="64" avgBytesPerRead="53438" medBytesPerRead="32768"
+                writeBytes="15892480" writeOps="162" writeTime="280" avgBytesPerWrite="98101" medBytesPerWrite="4096"
+                totalBytes="17762816" totalOps="197" totalTime="345">
+          <byFile>
+            <file name="BGInfo.bmp" readBytes="0" readOps="0" readTime="0" writeBytes="7488512" writeOps="9" writeTime="18"
+                  totalBytes="7488512" totalOps="9" totalTime="18"/>
+            <file name="boot_BASE+CSWITCH+DRIVERS+POWER_1_km_premerge.etl" readBytes="0" readOps="0" readTime="0" writeBytes="5242880" writeOps="5" writeTime="12"
+                  totalBytes="5242880" totalOps="5" totalTime="12"/>
+            <file name="MSS.log" readBytes="1044480" readOps="1" readTime="3" writeBytes="106496" writeOps="26" writeTime="4"
+                  totalBytes="1150976" totalOps="27" totalTime="8"/>
+            <file name="boot_BASE+CSWITCH+DRIVERS+POWER_1_um_premerge.etl" readBytes="0" readOps="0" readTime="0" writeBytes="1048576" writeOps="2" writeTime="3"
+                  totalBytes="1048576" totalOps="2" totalTime="3"/>
+            <file name="Windows.edb" readBytes="0" readOps="0" readTime="0" writeBytes="622592" writeOps="19" writeTime="3"
+                  totalBytes="622592" totalOps="19" totalTime="3"/>
+            <file name="mssrch.dll" readBytes="286720" readOps="9" readTime="4" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="286720" totalOps="9" totalTime="4"/>
+            <file name="$LogFile" readBytes="0" readOps="0" readTime="0" writeBytes="282624" writeOps="58" writeTime="10"
+                  totalBytes="282624" totalOps="58" totalTime="10"/>
+            <file name="ReadyBoot.etl" readBytes="0" readOps="0" readTime="0" writeBytes="262144" writeOps="1" writeTime="0"
+                  totalBytes="262144" totalOps="1" totalTime="0"/>
+            <file name="BootCKCL.etl" readBytes="0" readOps="0" readTime="0" writeBytes="262144" writeOps="2" writeTime="1"
+                  totalBytes="262144" totalOps="2" totalTime="1"/>
+            <file name="tquery.dll" readBytes="229376" readOps="7" readTime="41" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="229376" totalOps="7" totalTime="41"/>
+            <file name="$Mft" readBytes="12288" readOps="3" readTime="1" writeBytes="131072" writeOps="21" writeTime="3"
+                  totalBytes="143360" totalOps="24" totalTime="4"/>
+          </byFile>
+          <byExtension>
+            <extension name=".bmp" readBytes="0" readOps="0" readTime="0" writeBytes="7488512" writeOps="9" writeTime="18"
+                       totalBytes="7488512" totalOps="9" totalTime="18"/>
+            <extension name=".etl" readBytes="0" readOps="0" readTime="0" writeBytes="6815744" writeOps="10" writeTime="17"
+                       totalBytes="6815744" totalOps="10" totalTime="17"/>
+            <extension name=".log" readBytes="1044480" readOps="1" readTime="3" writeBytes="106496" writeOps="26" writeTime="4"
+                       totalBytes="1150976" totalOps="27" totalTime="8"/>
+            <extension name=".edb" readBytes="0" readOps="0" readTime="0" writeBytes="720896" writeOps="21" writeTime="4"
+                       totalBytes="720896" totalOps="21" totalTime="4"/>
+            <extension name=".dll" readBytes="516096" readOps="16" readTime="46" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="516096" totalOps="16" totalTime="46"/>
+            <extension name="(none)" readBytes="8192" readOps="2" readTime="2" writeBytes="286720" writeOps="59" writeTime="10"
+                       totalBytes="294912" totalOps="61" totalTime="13"/>
+            <extension name=".wid" readBytes="98304" readOps="3" readTime="1" writeBytes="77824" writeOps="3" writeTime="45"
+                       totalBytes="176128" totalOps="6" totalTime="46"/>
+            <extension name="$Mft" readBytes="12288" readOps="3" readTime="1" writeBytes="131072" writeOps="21" writeTime="3"
+                       totalBytes="143360" totalOps="24" totalTime="4"/>
+            <extension name=".dir" readBytes="12288" readOps="3" readTime="1" writeBytes="131072" writeOps="2" writeTime="109"
+                       totalBytes="143360" totalOps="5" totalTime="110"/>
+            <extension name=".evtx" readBytes="86016" readOps="2" readTime="0" writeBytes="4096" writeOps="1" writeTime="0"
+                       totalBytes="90112" totalOps="3" totalTime="1"/>
+            <extension name=".ci" readBytes="0" readOps="0" readTime="0" writeBytes="65536" writeOps="1" writeTime="64"
+                       totalBytes="65536" totalOps="1" totalTime="64"/>
+          </byExtension>
+        </diskIO>
+      </interval>
+      <interval name="TraceTail" startTime="32704" endTime="144064" duration="111360">
+        <prefetch>
+          <scenario name="SVCHOST.EXE" hash="0x135a30d8" type="applaunch" openVolumesStartTime="133502" openVolumesEndTime="133502" openVolumesDuration="0">
+            <phase index="0" type="data" startTime="133508" endTime="133524" duration="16"
+                   isTricklePhase="false" pagesPrefetched="276" readLists="48" readBytes="388096" readOps="36"
+                   process="svchost.exe" pid="3200" tid="3204"/>
+          </scenario>
+          <scenario name="MSCORSVW.EXE" hash="0xfaa88858" type="applaunch" openVolumesStartTime="133602" openVolumesEndTime="133602" openVolumesDuration="0">
+            <phase index="0" type="metadata" startTime="133602" endTime="133628" duration="26"
+                   isTricklePhase="false" pagesPrefetched="0" readLists="0" readBytes="1130496" readOps="35"
+                   process="mscorsvw.exe" pid="3232" tid="3236"/>
+            <phase index="0" type="data" startTime="133628" endTime="133648" duration="19"
+                   isTricklePhase="false" pagesPrefetched="139" readLists="42" readBytes="495104" readOps="43"
+                   process="mscorsvw.exe" pid="3232" tid="3236"/>
+            <phase index="0" type="image" startTime="133648" endTime="133659" duration="10"
+                   isTricklePhase="false" pagesPrefetched="462" readLists="37" readBytes="514048" readOps="23"
+                   process="mscorsvw.exe" pid="3232" tid="3236"/>
+          </scenario>
+          <scenario name="GOOGLEUPDATE.EXE" hash="0x8973cedd" type="applaunch" openVolumesStartTime="133927" openVolumesEndTime="133927" openVolumesDuration="0">
+            <phase index="0" type="data" startTime="133929" endTime="133940" duration="11"
+                   isTricklePhase="false" pagesPrefetched="131" readLists="48" readBytes="110592" readOps="24"
+                   process="GoogleUpdate.exe" pid="3296" tid="3300"/>
+          </scenario>
+          <scenario name="GOOGLEUPDATE.EXE" hash="0x8973cedd" type="applaunch" openVolumesStartTime="133977" openVolumesEndTime="133977" openVolumesDuration="0"/>
+          <scenario name="SVCHOST.EXE" hash="0x18d06b2e" type="applaunch" openVolumesStartTime="134105" openVolumesEndTime="134105" openVolumesDuration="0"/>
+          <scenario name="CONSENT.EXE" hash="0x65f6206d" type="applaunch" openVolumesStartTime="140383" openVolumesEndTime="140383" openVolumesDuration="0">
+            <phase index="0" type="data" startTime="140391" endTime="140409" duration="17"
+                   isTricklePhase="false" pagesPrefetched="462" readLists="87" readBytes="406528" readOps="34"
+                   process="consent.exe" pid="3564" tid="3568"/>
+          </scenario>
+          <scenario name="DLLHOST.EXE" hash="0x893ddf55" type="applaunch" openVolumesStartTime="142548" openVolumesEndTime="142548" openVolumesDuration="0"/>
+          <scenario name="DLLHOST.EXE" hash="0x893ddf55" type="applaunch" openVolumesStartTime="142648" openVolumesEndTime="142648" openVolumesDuration="0"/>
+          <scenario name="XBOOTMGR.EXE" hash="0xcc3b3840" type="applaunch" openVolumesStartTime="142697" openVolumesEndTime="142697" openVolumesDuration="0"/>
+          <scenario name="WMIPRVSE.EXE" hash="0x43972d0f" type="applaunch" openVolumesStartTime="142792" openVolumesEndTime="142792" openVolumesDuration="0">
+            <phase index="0" type="data" startTime="142795" endTime="142805" duration="10"
+                   isTricklePhase="false" pagesPrefetched="231" readLists="44" readBytes="371200" readOps="13"
+                   process="WmiPrvSE.exe" pid="3744" tid="3748"/>
+          </scenario>
+        </prefetch>
+        <perProcess>
+          <perProcessCPUUsage name="Idle" time="99939" percentOfInterval="89.74">
+            <cpuUsage priority="0" time="99939" cumTime="99939" ofProcess="100.00" ofInterval="89.74" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="svchost.exe" time="4763" percentOfInterval="4.28">
+            <cpuUsage priority="4" time="4132" cumTime="4132" ofProcess="86.75" ofInterval="3.71" cumOfProcess="86.75"/>
+            <cpuUsage priority="5" time="530" cumTime="4663" ofProcess="11.13" ofInterval="0.48" cumOfProcess="97.90"/>
+            <cpuUsage priority="6" time="8" cumTime="4671" ofProcess="0.17" ofInterval="0.01" cumOfProcess="98.07"/>
+            <cpuUsage priority="7" time="37" cumTime="4709" ofProcess="0.78" ofInterval="0.03" cumOfProcess="98.87"/>
+            <cpuUsage priority="8" time="20" cumTime="4729" ofProcess="0.42" ofInterval="0.02" cumOfProcess="99.29"/>
+            <cpuUsage priority="9" time="25" cumTime="4755" ofProcess="0.52" ofInterval="0.02" cumOfProcess="99.83"/>
+            <cpuUsage priority="10" time="4" cumTime="4760" ofProcess="0.08" ofInterval="0.00" cumOfProcess="99.94"/>
+            <cpuUsage priority="13" time="3" cumTime="4763" ofProcess="0.06" ofInterval="0.00" cumOfProcess="100.00"/>
+          </perProcessCPUUsage>
+          <perProcessCPUUsage name="svchost.exe" time="1998" percentOfInterval="1.79">
+            <cpuUsage priority="7" time="1666" cumTime="1666" ofProcess="83.38" ofInterval="1.50" cumOfProcess="83.38"/>
+            <cpuUsage priority="8" time="320" cumTime="1986" ofProcess="16.02" ofInterval="0.29" cumOfProcess="99.40"/>
+            <cpuUsage priority="9" time="11" cumTime="1997" ofProcess="0.55" ofInterval="0.01" cumOfProcess="99.95"/>
+          </perProcessCPUUsage>
+        </perProcess>
+        <perPriority>
+          <perPriorityCPUUsage priority="0" time="99939" ofInterval="89.74">
+            <cpuUsage process="Idle" time="99939" ofPriority="100.00"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="4" time="4132" ofInterval="3.71">
+            <cpuUsage process="svchost.exe" time="4132" ofPriority="100.00"/>
+          </perPriorityCPUUsage>
+          <perPriorityCPUUsage priority="7" time="1703" ofInterval="1.53">
+            <cpuUsage process="svchost.exe" time="1666" ofPriority="97.83"/>
+            <cpuUsage process="svchost.exe" time="37" ofPriority="2.17"/>
+          </perPriorityCPUUsage>
+        </perPriority>
+        <diskIO readBytes="122011136" readOps="5015" readTime="3188" avgBytesPerRead="24329" medBytesPerRead="4096"
+                writeBytes="37300224" writeOps="451" writeTime="271" avgBytesPerWrite="82705" medBytesPerWrite="4096"
+                totalBytes="159311360" totalOps="5466" totalTime="3459">
+          <byFile>
+            <file name="mpasbase.vdm" readBytes="44539904" readOps="195" readTime="138" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="44539904" totalOps="195" totalTime="138"/>
+            <file name="boot_BASE+CSWITCH+DRIVERS+POWER_1_km_premerge.etl" readBytes="0" readOps="0" readTime="0" writeBytes="24117248" writeOps="25" writeTime="57"
+                  totalBytes="24117248" totalOps="25" totalTime="57"/>
+            <file name="mpengine.dll" readBytes="13765632" readOps="439" readTime="183" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="13765632" totalOps="439" totalTime="183"/>
+            <file name="$Mft" readBytes="8888320" readOps="2089" readTime="915" writeBytes="417792" writeOps="91" writeTime="55"
+                  totalBytes="9306112" totalOps="2180" totalTime="970"/>
+            <file name="pagefile.sys" readBytes="0" readOps="0" readTime="0" writeBytes="7340032" writeOps="7" writeTime="18"
+                  totalBytes="7340032" totalOps="7" totalTime="18"/>
+            <file name="BootCKCL.etl" readBytes="3670528" readOps="21" readTime="14" writeBytes="1180160" writeOps="10" writeTime="4"
+                  totalBytes="4850688" totalOps="31" totalTime="18"/>
+            <file name="mpasdlta.vdm" readBytes="3256320" readOps="18" readTime="63" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="3256320" totalOps="18" totalTime="63"/>
+            <file name="ReadyBoot.etl" readBytes="2884096" readOps="13" readTime="6" writeBytes="262656" writeOps="2" writeTime="1"
+                  totalBytes="3146752" totalOps="15" totalTime="7"/>
+            <file name="AgGlGlobalHistory.db" readBytes="2590208" readOps="1" readTime="9" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="2590208" totalOps="1" totalTime="9"/>
+            <file name="Trace4.fx" readBytes="2523136" readOps="82" readTime="19" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="2523136" totalOps="82" totalTime="19"/>
+            <file name="Trace5.fx" readBytes="2015232" readOps="65" readTime="24" writeBytes="0" writeOps="0" writeTime="0"
+                  totalBytes="2015232" totalOps="65" totalTime="24"/>
+          </byFile>
+          <byExtension>
+            <extension name=".vdm" readBytes="47796224" readOps="213" readTime="201" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="47796224" totalOps="213" totalTime="201"/>
+            <extension name=".etl" readBytes="7668736" readOps="47" readTime="28" writeBytes="26297344" writeOps="40" writeTime="65"
+                       totalBytes="33966080" totalOps="87" totalTime="93"/>
+            <extension name=".dll" readBytes="27902976" readOps="1163" readTime="1299" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="27902976" totalOps="1163" totalTime="1299"/>
+            <extension name=".fx" readBytes="8900608" readOps="288" readTime="80" writeBytes="778240" writeOps="42" writeTime="69"
+                       totalBytes="9678848" totalOps="330" totalTime="150"/>
+            <extension name="$Mft" readBytes="8888320" readOps="2089" readTime="915" writeBytes="417792" writeOps="91" writeTime="55"
+                       totalBytes="9306112" totalOps="2180" totalTime="970"/>
+            <extension name=".sys" readBytes="729088" readOps="27" readTime="11" writeBytes="7340032" writeOps="7" writeTime="18"
+                       totalBytes="8069120" totalOps="34" totalTime="29"/>
+            <extension name="(none)" readBytes="4628480" readOps="648" readTime="325" writeBytes="1166848" writeOps="194" writeTime="41"
+                       totalBytes="5795328" totalOps="842" totalTime="367"/>
+            <extension name=".db" readBytes="4506624" readOps="19" readTime="18" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="4506624" totalOps="19" totalTime="18"/>
+            <extension name=".PNF" readBytes="1862144" readOps="71" readTime="25" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="1862144" totalOps="71" totalTime="25"/>
+            <extension name=".log" readBytes="1574400" readOps="10" readTime="6" writeBytes="157184" writeOps="40" writeTime="7"
+                       totalBytes="1731584" totalOps="50" totalTime="13"/>
+            <extension name=".DATA" readBytes="1212416" readOps="148" readTime="51" writeBytes="0" writeOps="0" writeTime="0"
+                       totalBytes="1212416" totalOps="148" totalTime="51"/>
+          </byExtension>
+        </diskIO>
+      </interval>
+    </timing>
+    <services autoStartStartTime="8428" autoStartEndTime="13345" autoStartDuration="4916">
+      <serviceTransition name="PlugPlay" group="PlugPlay" transition="start"
+                         totalTransitionTimeDelta="50" firstCheckpointTimeDelta="10" processingTimeDelta="40"
+                         container="DcomLaunch svchost (584)" startedAt="8428" firstCheckpointedAt="8438" endedAt="8479"/>
+      <serviceTransition name="Power" group="PlugPlay" transition="start"
+                         totalTransitionTimeDelta="99" firstCheckpointTimeDelta="0" processingTimeDelta="99"
+                         container="DcomLaunch svchost (584)" startedAt="8480" firstCheckpointedAt="8480" endedAt="8579"/>
+      <serviceTransition name="VBoxService" group="Base" transition="start"
+                         totalTransitionTimeDelta="117" firstCheckpointTimeDelta="44" processingTimeDelta="72"
+                         container="VBoxService.exe (648)" startedAt="8598" firstCheckpointedAt="8643" endedAt="8716"/>
+      <serviceTransition name="DcomLaunch" group="COM Infrastructure" transition="start"
+                         totalTransitionTimeDelta="23" firstCheckpointTimeDelta="0" processingTimeDelta="22"
+                         container="DcomLaunch svchost (584)" startedAt="8716" firstCheckpointedAt="8716" endedAt="8739"/>
+      <serviceTransition name="RpcEptMapper" group="COM Infrastructure" transition="start"
+                         totalTransitionTimeDelta="33" firstCheckpointTimeDelta="25" processingTimeDelta="8"
+                         container="RPCSS svchost (704)" startedAt="8717" firstCheckpointedAt="8742" endedAt="8750"/>
+      <serviceTransition name="RpcSs" group="COM Infrastructure" transition="start"
+                         totalTransitionTimeDelta="21" firstCheckpointTimeDelta="0" processingTimeDelta="21"
+                         container="RPCSS svchost (704)" startedAt="8751" firstCheckpointedAt="8751" endedAt="8772"/>
+      <serviceTransition name="eventlog" group="Event Log" transition="start"
+                         totalTransitionTimeDelta="97" firstCheckpointTimeDelta="42" processingTimeDelta="54"
+                         container="LocalServiceNetworkRestricted svchost (752)" startedAt="8772" firstCheckpointedAt="8815" endedAt="8870"/>
+      <serviceTransition name="AudioEndpointBuilder" group="AudioGroup" transition="start"
+                         totalTransitionTimeDelta="644" firstCheckpointTimeDelta="527" processingTimeDelta="117"
+                         container="LocalSystemNetworkRestricted svchost (876)" startedAt="8870" firstCheckpointedAt="9397" endedAt="9515"/>
+      <serviceTransition name="MMCSS" group="AudioGroup" transition="start"
+                         totalTransitionTimeDelta="56" firstCheckpointTimeDelta="51" processingTimeDelta="5"
+                         container="netsvcs svchost (916)" startedAt="9462" firstCheckpointedAt="9513" endedAt="9518"/>
+      <serviceTransition name="Audiosrv" group="AudioGroup" transition="start"
+                         totalTransitionTimeDelta="10" firstCheckpointTimeDelta="0" processingTimeDelta="9"
+                         container="LocalServiceNetworkRestricted svchost (752)" startedAt="9519" firstCheckpointedAt="9519" endedAt="9529"/>
+      <serviceTransition name="CscService" group="ProfSvc_Group" transition="start"
+                         totalTransitionTimeDelta="91" firstCheckpointTimeDelta="0" processingTimeDelta="91"
+                         container="LocalSystemNetworkRestricted svchost (876)" startedAt="9529" firstCheckpointedAt="9529" endedAt="9620"/>
+      <serviceTransition name="gpsvc" group="ProfSvc_Group" transition="start"
+                         totalTransitionTimeDelta="90" firstCheckpointTimeDelta="0" processingTimeDelta="90"
+                         container="netsvcs svchost (916)" startedAt="9530" firstCheckpointedAt="9530" endedAt="9620"/>
+      <serviceTransition name="ProfSvc" group="ProfSvc_Group" transition="start"
+                         totalTransitionTimeDelta="74" firstCheckpointTimeDelta="0" processingTimeDelta="74"
+                         container="netsvcs svchost (916)" startedAt="9549" firstCheckpointedAt="9549" endedAt="9623"/>
+      <serviceTransition name="Themes" group="ProfSvc_Group" transition="start"
+                         totalTransitionTimeDelta="25" firstCheckpointTimeDelta="0" processingTimeDelta="25"
+                         container="netsvcs svchost (916)" startedAt="9590" firstCheckpointedAt="9590" endedAt="9616"/>
+      <serviceTransition name="EventSystem" group="ProfSvc_Group" transition="start"
+                         totalTransitionTimeDelta="420" firstCheckpointTimeDelta="31" processingTimeDelta="388"
+                         container="LocalService svchost (1020)" startedAt="9616" firstCheckpointedAt="9648" endedAt="10036"/>
+      <serviceTransition name="SENS" group="ProfSvc_Group" transition="start"
+                         totalTransitionTimeDelta="59" firstCheckpointTimeDelta="0" processingTimeDelta="59"
+                         container="netsvcs svchost (916)" startedAt="10037" firstCheckpointedAt="10037" endedAt="10096"/>
+      <serviceTransition name="UxSms" group="UIGroup" transition="start"
+                         totalTransitionTimeDelta="391" firstCheckpointTimeDelta="0" processingTimeDelta="391"
+                         container="LocalSystemNetworkRestricted svchost (876)" startedAt="10096" firstCheckpointedAt="10096" endedAt="10487"/>
+      <serviceTransition name="SamSs" group="MS_WindowsLocalValidation" transition="start"
+                         totalTransitionTimeDelta="0" firstCheckpointTimeDelta="0" processingTimeDelta="0"
+                         container="lsass.exe (472)" startedAt="10488" firstCheckpointedAt="10488" endedAt="10489"/>
+      <serviceTransition name="lmhosts" group="TDI" transition="start"
+                         totalTransitionTimeDelta="107" firstCheckpointTimeDelta="0" processingTimeDelta="106"
+                         container="LocalServiceNetworkRestricted svchost (752)" startedAt="10495" firstCheckpointedAt="10496" endedAt="10603"/>
+      <serviceTransition name="nsi" group="TDI" transition="start"
+                         totalTransitionTimeDelta="92" firstCheckpointTimeDelta="12" processingTimeDelta="80"
+                         container="LocalService svchost (1020)" startedAt="10534" firstCheckpointedAt="10546" endedAt="10627"/>
+      <serviceTransition name="Dhcp" group="TDI" transition="start"
+                         totalTransitionTimeDelta="66" firstCheckpointTimeDelta="0" processingTimeDelta="65"
+                         container="LocalServiceNetworkRestricted svchost (752)" startedAt="10627" firstCheckpointedAt="10627" endedAt="10693"/>
+      <serviceTransition name="Dnscache" group="TDI" transition="start"
+                         totalTransitionTimeDelta="80" firstCheckpointTimeDelta="42" processingTimeDelta="37"
+                         container="NetworkService svchost (1244)" startedAt="10628" firstCheckpointedAt="10670" endedAt="10708"/>
+      <serviceTransition name="ShellHWDetection" group="ShellSvcGroup" transition="start"
+                         totalTransitionTimeDelta="9" firstCheckpointTimeDelta="0" processingTimeDelta="9"
+                         container="netsvcs svchost (916)" startedAt="10708" firstCheckpointedAt="10708" endedAt="10717"/>
+      <serviceTransition name="Schedule" group="SchedulerGroup" transition="start"
+                         totalTransitionTimeDelta="145" firstCheckpointTimeDelta="0" processingTimeDelta="145"
+                         container="netsvcs svchost (916)" startedAt="10718" firstCheckpointedAt="10718" endedAt="10864"/>
+      <serviceTransition name="Spooler" group="SpoolerGroup" transition="start"
+                         totalTransitionTimeDelta="109" firstCheckpointTimeDelta="53" processingTimeDelta="55"
+                         container="spoolsv.exe (1336)" startedAt="10877" firstCheckpointedAt="10931" endedAt="10986"/>
+      <serviceTransition name="BFE" group="NetworkProvider" transition="start"
+                         totalTransitionTimeDelta="285" firstCheckpointTimeDelta="136" processingTimeDelta="149"
+                         container="LocalServiceNoNetwork svchost (1400)" startedAt="10987" firstCheckpointedAt="11123" endedAt="11272"/>
+      <serviceTransition name="MpsSvc" group="NetworkProvider" transition="start"
+                         totalTransitionTimeDelta="56" firstCheckpointTimeDelta="1" processingTimeDelta="55"
+                         container="LocalServiceNoNetwork svchost (1400)" startedAt="11280" firstCheckpointedAt="11281" endedAt="11336"/>
+      <serviceTransition name="LanmanWorkstation" group="NetworkProvider" transition="start"
+                         totalTransitionTimeDelta="26" firstCheckpointTimeDelta="2" processingTimeDelta="24"
+                         container="NetworkService svchost (1244)" startedAt="11336" firstCheckpointedAt="11339" endedAt="11363"/>
+      <serviceTransition name="vmicheartbeat" group="Extended Base" transition="start"
+                         totalTransitionTimeDelta="35" firstCheckpointTimeDelta="22" processingTimeDelta="13"
+                         container="vmicsvc.exe -feature Heartbeat (1512)" startedAt="11370" firstCheckpointedAt="11393" endedAt="11406"/>
+      <serviceTransition name="vmickvpexchange" group="Extended Base" transition="start"
+                         totalTransitionTimeDelta="52" firstCheckpointTimeDelta="13" processingTimeDelta="38"
+                         container="vmicsvc.exe -feature KvpExchange (1532)" startedAt="11394" firstCheckpointedAt="11408" endedAt="11446"/>
+      <serviceTransition name="vmicshutdown" group="Extended Base" transition="start"
+                         totalTransitionTimeDelta="44" firstCheckpointTimeDelta="20" processingTimeDelta="24"
+                         container="vmicsvc.exe -feature Shutdown (1572)" startedAt="11421" firstCheckpointedAt="11441" endedAt="11466"/>
+      <serviceTransition name="vmictimesync" group="Extended Base" transition="start"
+                         totalTransitionTimeDelta="30" firstCheckpointTimeDelta="15" processingTimeDelta="14"
+                         container="vmicsvc.exe -feature TimeSync (1600)" startedAt="11465" firstCheckpointedAt="11481" endedAt="11495"/>
+      <serviceTransition name="vmicvss" group="Extended Base" transition="start"
+                         totalTransitionTimeDelta="94" firstCheckpointTimeDelta="21" processingTimeDelta="73"
+                         container="vmicsvc.exe -feature VSS (1624)" startedAt="11481" firstCheckpointedAt="11503" endedAt="11576"/>
+      <serviceTransition name="CryptSvc" group="" transition="start"
+                         totalTransitionTimeDelta="62" firstCheckpointTimeDelta="7" processingTimeDelta="55"
+                         container="NetworkService svchost (1244)" startedAt="11576" firstCheckpointedAt="11584" endedAt="11639"/>
+      <serviceTransition name="DiagTrack" group="" transition="start"
+                         totalTransitionTimeDelta="142" firstCheckpointTimeDelta="57" processingTimeDelta="85"
+                         container="utcsvc svchost (1660)" startedAt="11585" firstCheckpointedAt="11642" endedAt="11728"/>
+      <serviceTransition name="DPS" group="" transition="start"
+                         totalTransitionTimeDelta="141" firstCheckpointTimeDelta="27" processingTimeDelta="113"
+                         container="LocalServiceNoNetwork svchost (1400)" startedAt="11650" firstCheckpointedAt="11678" endedAt="11791"/>
+      <serviceTransition name="NlaSvc" group="" transition="start"
+                         totalTransitionTimeDelta="250" firstCheckpointTimeDelta="12" processingTimeDelta="237"
+                         container="NetworkService svchost (1244)" startedAt="11715" firstCheckpointedAt="11728" endedAt="11966"/>
+      <serviceTransition name="OpenSSHd" group="" transition="start"
+                         totalTransitionTimeDelta="1607" firstCheckpointTimeDelta="132" processingTimeDelta="1475"
+                         container="cygrunsrv.exe (1744)" startedAt="11737" firstCheckpointedAt="11869" endedAt="13345"/>
+      <serviceTransition name="SysMain" group="" transition="start"
+                         totalTransitionTimeDelta="62" firstCheckpointTimeDelta="0" processingTimeDelta="62"
+                         container="LocalSystemNetworkRestricted svchost (876)" startedAt="11909" firstCheckpointedAt="11909" endedAt="11972"/>
+      <serviceTransition name="TrkWks" group="" transition="start"
+                         totalTransitionTimeDelta="69" firstCheckpointTimeDelta="0" processingTimeDelta="69"
+                         container="LocalSystemNetworkRestricted svchost (876)" startedAt="11969" firstCheckpointedAt="11970" endedAt="12039"/>
+      <serviceTransition name="Winmgmt" group="" transition="start"
+                         totalTransitionTimeDelta="59" firstCheckpointTimeDelta="0" processingTimeDelta="59"
+                         container="netsvcs svchost (916)" startedAt="11980" firstCheckpointedAt="11980" endedAt="12040"/>
+      <serviceTransition name="WLMS" group="" transition="start"
+                         totalTransitionTimeDelta="112" firstCheckpointTimeDelta="49" processingTimeDelta="62"
+                         container="wlms.exe (1812)" startedAt="11991" firstCheckpointedAt="12040" endedAt="12103"/>
+      <serviceTransition name="iphlpsvc" group="" transition="start"
+                         totalTransitionTimeDelta="92" firstCheckpointTimeDelta="0" processingTimeDelta="92"
+                         container="netsvcs svchost (916)" startedAt="12044" firstCheckpointedAt="12044" endedAt="12137"/>
+      <serviceTransition name="LanmanServer" group="" transition="start"
+                         totalTransitionTimeDelta="286" firstCheckpointTimeDelta="0" processingTimeDelta="286"
+                         container="netsvcs svchost (916)" startedAt="12137" firstCheckpointedAt="12137" endedAt="12424"/>
+      <serviceTransition name="Appinfo" group="" transition="start"
+                         totalTransitionTimeDelta="78" firstCheckpointTimeDelta="0" processingTimeDelta="78"
+                         container="netsvcs svchost (916)" startedAt="13350" firstCheckpointedAt="13350" endedAt="13429"/>
+      <serviceTransition name="netprofm" group="" transition="start"
+                         totalTransitionTimeDelta="85" firstCheckpointTimeDelta="19" processingTimeDelta="66"
+                         container="LocalService svchost (1020)" startedAt="13404" firstCheckpointedAt="13424" endedAt="13490"/>
+      <serviceTransition name="sppsvc" group="" transition="start"
+                         totalTransitionTimeDelta="126" firstCheckpointTimeDelta="47" processingTimeDelta="78"
+                         container="sppsvc.exe (1052)" startedAt="13430" firstCheckpointedAt="13477" endedAt="13556"/>
+      <serviceTransition name="WdiServiceHost" group="" transition="start"
+                         totalTransitionTimeDelta="82" firstCheckpointTimeDelta="8" processingTimeDelta="74"
+                         container="LocalService svchost (1020)" startedAt="13482" firstCheckpointedAt="13490" endedAt="13565"/>
+      <serviceTransition name="WPDBusEnum" group="" transition="start"
+                         totalTransitionTimeDelta="160" firstCheckpointTimeDelta="0" processingTimeDelta="160"
+                         container="LocalSystemNetworkRestricted svchost (876)" startedAt="13495" firstCheckpointedAt="13495" endedAt="13655"/>
+      <serviceTransition name="WPDBusEnum" group="" transition="stop"
+                         totalTransitionTimeDelta="40" firstCheckpointTimeDelta="40" processingTimeDelta="0"
+                         container="LocalSystemNetworkRestricted svchost (876)" startedAt="133642" firstCheckpointedAt="133682" endedAt="133682"/>
+      <serviceTransition name="Browser" group="NetworkProvider" transition="start"
+                         totalTransitionTimeDelta="60" firstCheckpointTimeDelta="0" processingTimeDelta="60"
+                         container="netsvcs svchost (916)" startedAt="13566" firstCheckpointedAt="13566" endedAt="13626"/>
+      <serviceTransition name="Browser" group="NetworkProvider" transition="stop"
+                         totalTransitionTimeDelta="0" firstCheckpointTimeDelta="0" processingTimeDelta="0"
+                         container="(unknown)" startedAt="22647" firstCheckpointedAt="22647" endedAt="22647"/>
+      <serviceTransition name="PolicyAgent" group="" transition="start"
+                         totalTransitionTimeDelta="1543" firstCheckpointTimeDelta="72" processingTimeDelta="1471"
+                         container="NetworkServiceNetworkRestricted svchost (1648)" startedAt="13572" firstCheckpointedAt="13644" endedAt="15115"/>
+      <serviceTransition name="WdiSystemHost" group="" transition="start"
+                         totalTransitionTimeDelta="49" firstCheckpointTimeDelta="0" processingTimeDelta="49"
+                         container="LocalSystemNetworkRestricted svchost (876)" startedAt="13656" firstCheckpointedAt="13656" endedAt="13705"/>
+      <serviceTransition name="TrustedInstaller" group="ProfSvc_Group" transition="start"
+                         totalTransitionTimeDelta="378" firstCheckpointTimeDelta="12" processingTimeDelta="366"
+                         container="TrustedInstaller.exe (2088)" startedAt="14775" firstCheckpointedAt="14788" endedAt="15154"/>
+      <serviceTransition name="WinHttpAutoProxySvc" group="" transition="start"
+                         totalTransitionTimeDelta="314" firstCheckpointTimeDelta="25" processingTimeDelta="288"
+                         container="LocalService svchost (1020)" startedAt="15643" firstCheckpointedAt="15669" endedAt="15957"/>
+      <serviceTransition name="WSearch" group="" transition="start"
+                         totalTransitionTimeDelta="382" firstCheckpointTimeDelta="52" processingTimeDelta="330"
+                         container="SearchIndexer.exe /Embedding (2524)" startedAt="25734" firstCheckpointedAt="25786" endedAt="26116"/>
+      <serviceTransition name="Netman" group="" transition="start"
+                         totalTransitionTimeDelta="41" firstCheckpointTimeDelta="0" processingTimeDelta="41"
+                         container="LocalSystemNetworkRestricted svchost (876)" startedAt="25890" firstCheckpointedAt="25890" endedAt="25931"/>
+      <serviceTransition name="BITS" group="" transition="start"
+                         totalTransitionTimeDelta="127" firstCheckpointTimeDelta="0" processingTimeDelta="127"
+                         container="netsvcs svchost (916)" startedAt="133345" firstCheckpointedAt="133345" endedAt="133472"/>
+      <serviceTransition name="SSDPSRV" group="" transition="start"
+                         totalTransitionTimeDelta="238" firstCheckpointTimeDelta="43" processingTimeDelta="194"
+                         container="LocalServiceAndNoImpersonation svchost (3200)" startedAt="133494" firstCheckpointedAt="133537" endedAt="133732"/>
+      <serviceTransition name="clr_optimization_v4.0.30319_32" group="" transition="start"
+                         totalTransitionTimeDelta="87" firstCheckpointTimeDelta="86" processingTimeDelta="1"
+                         container="mscorsvw.exe (3232)" startedAt="133594" firstCheckpointedAt="133681" endedAt="133682"/>
+      <serviceTransition name="clr_optimization_v4.0.30319_32" group="" transition="stop"
+                         totalTransitionTimeDelta="0" firstCheckpointTimeDelta="0" processingTimeDelta="0"
+                         container="(unknown)" startedAt="133683" firstCheckpointedAt="133683" endedAt="133683"/>
+      <serviceTransition name="FontCache" group="" transition="start"
+                         totalTransitionTimeDelta="93" firstCheckpointTimeDelta="0" processingTimeDelta="93"
+                         container="LocalServiceAndNoImpersonation svchost (3200)" startedAt="133798" firstCheckpointedAt="133798" endedAt="133891"/>
+      <serviceTransition name="gupdate" group="" transition="start"
+                         totalTransitionTimeDelta="49" firstCheckpointTimeDelta="48" processingTimeDelta="1"
+                         container="GoogleUpdate.exe /svc (3296)" startedAt="133924" firstCheckpointedAt="133972" endedAt="133974"/>
+      <serviceTransition name="gupdate" group="" transition="stop"
+                         totalTransitionTimeDelta="0" firstCheckpointTimeDelta="0" processingTimeDelta="0"
+                         container="GoogleUpdate.exe /svc (3296)" startedAt="133976" firstCheckpointedAt="133977" endedAt="133977"/>
+      <serviceTransition name="WinDefend" group="" transition="start"
+                         totalTransitionTimeDelta="271" firstCheckpointTimeDelta="14" processingTimeDelta="257"
+                         container="secsvcs svchost (3396)" startedAt="134100" firstCheckpointedAt="134114" endedAt="134371"/>
+      <serviceTransition name="wscsvc" group="" transition="start"
+                         totalTransitionTimeDelta="111" firstCheckpointTimeDelta="0" processingTimeDelta="111"
+                         container="LocalServiceNetworkRestricted svchost (752)" startedAt="134470" firstCheckpointedAt="134470" endedAt="134581"/>
+      <serviceTransition name="wuauserv" group="" transition="start"
+                         totalTransitionTimeDelta="831" firstCheckpointTimeDelta="0" processingTimeDelta="831"
+                         container="netsvcs svchost (916)" startedAt="134596" firstCheckpointedAt="134596" endedAt="135428"/>
+    </services>
+    <pnp>
+      <phase name="bootStart" startTime="51" endTime="3177" duration="3125">
+        <pnpObject name="PCIIDE\IDEChannel\4+2f42c713+0+1" type="Device" activity="Enum"
+                   startTime="136" endTime="1143" duration="1006" prePendTime="0" description="&#x041A;&#x0430;&#x043D;&#x0430;&#x043B; IDE" friendlyName="ATA Channel 1"/>
+        <pnpObject name="ACPI\PNP0A03\0" type="Device" activity="Enum"
+                   startTime="84" endTime="106" duration="22" prePendTime="22" description="&#x0428;&#x0438;&#x043D;&#x0430; PCI" friendlyName=""/>
+        <pnpObject name="HTREE\ROOT\0" type="Device" activity="Enum"
+                   startTime="47" endTime="65" duration="18" prePendTime="18"/>
+        <pnpObject name="PCI\VEN_80EE+DEV_CAFE+SUBSYS_00000000+REV_00\3+267a616a+0+20" type="Device" activity="Enum"
+                   startTime="1164" endTime="1180" duration="16" prePendTime="16" description="VirtualBox Guest Device" friendlyName=""/>
+        <pnpObject name="Root\ACPI_HAL\0000" type="Device" activity="Enum"
+                   startTime="50" endTime="65" duration="15" prePendTime="15" description="ACPI &#x043A;&#x043E;&#x043C;&#x043F;&#x044C;&#x044E;&#x0442;&#x0435;&#x0440; &#x043D;&#x0430; &#x0431;&#x0430;&#x0437;&#x0435; x86" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_AFD\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Ancillary Function Driver for Winsock" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_AGP440\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Intel AGP Bus Filter" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_BEEP\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Beep" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_CLFS\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="&#x041E;&#x0431;&#x0449;&#x0438;&#x0439; &#x0436;&#x0443;&#x0440;&#x043D;&#x0430;&#x043B; (CLFS)" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_CNG\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="CNG" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_DISCACHE\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="System Attribute Cache" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_CSC\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="&#x0414;&#x0440;&#x0430;&#x0439;&#x0432;&#x0435;&#x0440; &#x0430;&#x0432;&#x0442;&#x043E;&#x043D;&#x043E;&#x043C;&#x043D;&#x044B;&#x0445; &#x0444;&#x0430;&#x0439;&#x043B;&#x043E;&#x0432;" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_DXGKRNL\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="LDDM Graphics Subsystem" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_FVEVOL\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="&#x0414;&#x0440;&#x0430;&#x0439;&#x0432;&#x0435;&#x0440; &#x0444;&#x0438;&#x043B;&#x044C;&#x0442;&#x0440;&#x0430; &#x0448;&#x0438;&#x0444;&#x0440;&#x043E;&#x0432;&#x0430;&#x043D;&#x0438;&#x044F; &#x0434;&#x0438;&#x0441;&#x043A;&#x0430; Bitlocker" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_HTTP\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="HTTP" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_HWPOLICY\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Hardware Policy Driver" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_KSECDD\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="KSecDD" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_KSECPKG\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="KSecPkg" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_LLTDIO\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Link-Layer Topology Discovery Mapper I/O Driver" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_MOUNTMGR\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="&#x0414;&#x0438;&#x0441;&#x043F;&#x0435;&#x0442;&#x0447;&#x0435;&#x0440; &#x0442;&#x043E;&#x0447;&#x0435;&#x043A; &#x043F;&#x043E;&#x0434;&#x043A;&#x043B;&#x044E;&#x0447;&#x0435;&#x043D;&#x0438;&#x044F;" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_MPSDRV\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="&#x0414;&#x0440;&#x0430;&#x0439;&#x0432;&#x0435;&#x0440; &#x0430;&#x0432;&#x0442;&#x043E;&#x0440;&#x0438;&#x0437;&#x0430;&#x0446;&#x0438;&#x0438; &#x0431;&#x0440;&#x0430;&#x043D;&#x0434;&#x043C;&#x0430;&#x0443;&#x044D;&#x0440;&#x0430; Windows" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_MSISADRV\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="msisadrv" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_NDIS\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="&#x0421;&#x0438;&#x0441;&#x0442;&#x0435;&#x043C;&#x043D;&#x044B;&#x0439; &#x0434;&#x0440;&#x0430;&#x0439;&#x0432;&#x0435;&#x0440; NDIS" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_NDPROXY\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="NDProxy" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_NETBT\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="NETBT" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_NSIPROXY\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="NSI proxy service driver." friendlyName=""/>
+        <pnpObject name="Root\LEGACY_NULL\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Null" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_PARVDM\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Parvdm" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_PCW\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Performance Counters for Windows Driver" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_PEAUTH\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="PEAUTH" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_PSCHED\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="&#x041F;&#x043B;&#x0430;&#x043D;&#x0438;&#x0440;&#x043E;&#x0432;&#x0449;&#x0438;&#x043A; &#x043F;&#x0430;&#x043A;&#x0435;&#x0442;&#x043E;&#x0432; QoS" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_RDPCDD\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="RDPCDD" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_RDPENCDD\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="RDP Encoder Mirror Driver" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_RDPREFMP\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Reflector Display Driver used to gain access to graphics data" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_RSPNDR\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Link-Layer Topology Discovery Responder" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_SECDRV\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Security Driver" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_SPLDR\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Security Processor Loader Driver" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_STORFLT\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="&#x0414;&#x0438;&#x0441;&#x043A; &#x0412;&#x0438;&#x0440;&#x0442;&#x0443;&#x0430;&#x043B;&#x044C;&#x043D;&#x0430;&#x044F; &#x043C;&#x0430;&#x0448;&#x0438;&#x043D;&#x0430; &#x0428;&#x0438;&#x043D;&#x0430; &#x0423;&#x0441;&#x043A;&#x043E;&#x0440;&#x0435;&#x043D;&#x0438;&#x0435; &#x0424;&#x0438;&#x043B;&#x044C;&#x0442;&#x0440; &#x0414;&#x0440;&#x0430;&#x0439;&#x0432;&#x0435;&#x0440;" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_STORVSC\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="storvsc" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_TCPIP\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="&#x0414;&#x0440;&#x0430;&#x0439;&#x0432;&#x0435;&#x0440; &#x043F;&#x0440;&#x043E;&#x0442;&#x043E;&#x043A;&#x043E;&#x043B;&#x0430; TCP/IP" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_TCPIPREG\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="TCP/IP Registry Compatibility" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_TDX\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="&#x0414;&#x0440;&#x0430;&#x0439;&#x0432;&#x0435;&#x0440; &#x043F;&#x043E;&#x0434;&#x0434;&#x0435;&#x0440;&#x0436;&#x043A;&#x0438; NetIO Legacy TDI" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_VMBUS\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="&#x0428;&#x0438;&#x043D;&#x0430; VMBus" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_VGASAVE\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="VgaSave" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_VOLMGRX\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="&#x0414;&#x0438;&#x0441;&#x043F;&#x0435;&#x0442;&#x0447;&#x0435;&#x0440; &#x0434;&#x0438;&#x043D;&#x0430;&#x043C;&#x0438;&#x0447;&#x0435;&#x0441;&#x043A;&#x0438;&#x0445; &#x0442;&#x043E;&#x043C;&#x043E;&#x0432;" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_VOLSNAP\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Storage volumes" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_WANARPV6\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="&#x0414;&#x0440;&#x0430;&#x0439;&#x0432;&#x0435;&#x0440; &#x0443;&#x0434;&#x0430;&#x043B;&#x0435;&#x043D;&#x043D;&#x043E;&#x0433;&#x043E; &#x0434;&#x043E;&#x0441;&#x0442;&#x0443;&#x043F;&#x0430; IPv6 ARP" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_WDF01000\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="Kernel Mode Driver Frameworks service" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_WFPLWF\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="WFP Lightweight Filter" friendlyName=""/>
+        <pnpObject name="Root\LEGACY_WUDFPF\0000" type="Device" activity="Enum"
+                   startTime="51" endTime="65" duration="14" prePendTime="14" description="User Mode Driver Frameworks Platform Driver" friendlyName=""/>
+      </phase>
+      <phase name="systemStart" startTime="5120" endTime="5462" duration="341">
+        <pnpObject name="cdrom" type="Driver" activity="Load"
+                   startTime="5121" endTime="5341" duration="219" prePendTime="219"/>
+        <pnpObject name="VBoxSF" type="Driver" activity="Load"
+                   startTime="5394" endTime="5413" duration="18" prePendTime="18"/>
+        <pnpObject name="CSC" type="Driver" activity="Load"
+                   startTime="5445" endTime="5456" duration="10" prePendTime="10"/>
+      </phase>
+      <phase name="remainder" startTime="5462" endTime="-1" duration="-1">
+        <pnpObject name="PCI\VEN_8086+DEV_100E+SUBSYS_001E8086+REV_02\3+267a616a+0+18" type="Device" activity="Start"
+                   startTime="5676" endTime="6586" duration="909" prePendTime="909" description="&#x0410;&#x0434;&#x0430;&#x043F;&#x0442;&#x0435;&#x0440; &#x0440;&#x0430;&#x0431;&#x043E;&#x0447;&#x0435;&#x0433;&#x043E; &#x0441;&#x0442;&#x043E;&#x043B;&#x0430; Intel(R) PRO/1000 MT" friendlyName=""/>
+        <pnpObject name="ACPI\ACPI0003\0" type="Device" activity="Enum"
+                   startTime="6726" endTime="6865" duration="139" prePendTime="139" description="&#x0410;&#x0434;&#x0430;&#x043F;&#x0442;&#x0435;&#x0440; &#x0431;&#x043B;&#x043E;&#x043A;&#x0430; &#x043F;&#x0438;&#x0442;&#x0430;&#x043D;&#x0438;&#x044F; (Microsoft)" friendlyName=""/>
+        <pnpObject name="USB\ROOT_HUB\4+24d6eb65+0" type="Device" activity="Start"
+                   startTime="6727" endTime="6866" duration="139" prePendTime="139" description="&#x041A;&#x043E;&#x0440;&#x043D;&#x0435;&#x0432;&#x043E;&#x0439; USB-&#x043A;&#x043E;&#x043D;&#x0446;&#x0435;&#x043D;&#x0442;&#x0440;&#x0430;&#x0442;&#x043E;&#x0440;" friendlyName=""/>
+        <pnpObject name="USB\ROOT_HUB\4+24d6eb65+0" type="Device" activity="Enum"
+                   startTime="6728" endTime="6866" duration="137" prePendTime="137" description="&#x041A;&#x043E;&#x0440;&#x043D;&#x0435;&#x0432;&#x043E;&#x0439; USB-&#x043A;&#x043E;&#x043D;&#x0446;&#x0435;&#x043D;&#x0442;&#x0440;&#x0430;&#x0442;&#x043E;&#x0440;" friendlyName=""/>
+        <pnpObject name="PCI\VEN_106B+DEV_003F+SUBSYS_00000000+REV_00\3+267a616a+0+30" type="Device" activity="Start"
+                   startTime="6574" endTime="6689" duration="114" prePendTime="114" description="&#x0421;&#x0442;&#x0430;&#x043D;&#x0434;&#x0430;&#x0440;&#x0442;&#x043D;&#x044B;&#x0439; OpenHCD USB &#x0445;&#x043E;&#x0441;&#x0442;-&#x043A;&#x043E;&#x043D;&#x0442;&#x0440;&#x043E;&#x043B;&#x043B;&#x0435;&#x0440;" friendlyName=""/>
+        <pnpObject name="VBoxWddm" type="Driver" activity="Load"
+                   startTime="5497" endTime="5564" duration="67" prePendTime="67"/>
+        <pnpObject name="\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\VBoxWddm" type="unknown" activity="unknown"
+                   startTime="5513" endTime="5564" duration="51" prePendTime="51"/>
+        <pnpObject name="DXGKrnl" type="Driver" activity="Load"
+                   startTime="5514" endTime="5564" duration="49" prePendTime="49"/>
+        <pnpObject name="ACPI\ACPI0003\0" type="Device" activity="Start"
+                   startTime="6678" endTime="6724" duration="45" prePendTime="0" description="&#x0410;&#x0434;&#x0430;&#x043F;&#x0442;&#x0435;&#x0440; &#x0431;&#x043B;&#x043E;&#x043A;&#x0430; &#x043F;&#x0438;&#x0442;&#x0430;&#x043D;&#x0438;&#x044F; (Microsoft)" friendlyName=""/>
+        <pnpObject name="ACPI\PNP0C0A\0" type="Device" activity="Start"
+                   startTime="6678" endTime="6723" duration="45" prePendTime="0" description="&#x0411;&#x0430;&#x0442;&#x0430;&#x0440;&#x0435;&#x044F; &#x0441; ACPI-&#x0441;&#x043E;&#x0432;&#x043C;&#x0435;&#x0441;&#x0442;&#x0438;&#x043C;&#x044B;&#x043C; &#x0443;&#x043F;&#x0440;&#x0430;&#x0432;&#x043B;&#x0435;&#x043D;&#x0438;&#x0435;&#x043C; (Microsoft)" friendlyName=""/>
+        <pnpObject name="ACPI\PNP0F03\4+1d401fb5+0" type="Device" activity="Start"
+                   startTime="5659" endTime="5693" duration="33" prePendTime="0" description="Microsoft PS/2 &#x043C;&#x044B;&#x0448;&#x044C;" friendlyName=""/>
+        <pnpObject name="ACPI\PNP0303\4+1d401fb5+0" type="Device" activity="Start"
+                   startTime="5659" endTime="5692" duration="33" prePendTime="0" description="&#x0421;&#x0442;&#x0430;&#x043D;&#x0434;&#x0430;&#x0440;&#x0442;&#x043D;&#x0430;&#x044F; &#x043A;&#x043B;&#x0430;&#x0432;&#x0438;&#x0430;&#x0442;&#x0443;&#x0440;&#x0430; PS/2" friendlyName=""/>
+        <pnpObject name="PCI\VEN_80EE+DEV_BEEF+SUBSYS_00000000+REV_00\3+267a616a+0+10" type="Device" activity="Enum"
+                   startTime="7456" endTime="7476" duration="19" prePendTime="19" description="VirtualBox Graphics Adapter (WDDM)" friendlyName=""/>
+        <pnpObject name="PCI\VEN_106B+DEV_003F+SUBSYS_00000000+REV_00\3+267a616a+0+30" type="Device" activity="Enum"
+                   startTime="6670" endTime="6689" duration="19" prePendTime="19" description="&#x0421;&#x0442;&#x0430;&#x043D;&#x0434;&#x0430;&#x0440;&#x0442;&#x043D;&#x044B;&#x0439; OpenHCD USB &#x0445;&#x043E;&#x0441;&#x0442;-&#x043A;&#x043E;&#x043D;&#x0442;&#x0440;&#x043E;&#x043B;&#x043B;&#x0435;&#x0440;" friendlyName=""/>
+        <pnpObject name="PEAUTH" type="Driver" activity="Load"
+                   startTime="11883" endTime="11902" duration="19" prePendTime="19"/>
+        <pnpObject name="DISPLAY\Default_Monitor\4+2abfaa30+0+UID0" type="Device" activity="Start"
+                   startTime="7460" endTime="7476" duration="15" prePendTime="0" description="&#x0423;&#x043D;&#x0438;&#x0432;&#x0435;&#x0440;&#x0441;&#x0430;&#x043B;&#x044C;&#x043D;&#x044B;&#x0439; &#x043C;&#x043E;&#x043D;&#x0438;&#x0442;&#x043E;&#x0440; &#x043D;&#x0435; PnP" friendlyName=""/>
+        <pnpObject name="luafv" type="Driver" activity="Load"
+                   startTime="8583" endTime="8598" duration="15" prePendTime="15"/>
+        <pnpObject name="DISPLAY\Default_Monitor\4+2abfaa30+0+UID0" type="Device" activity="Enum"
+                   startTime="7461" endTime="7476" duration="15" prePendTime="15" description="&#x0423;&#x043D;&#x0438;&#x0432;&#x0435;&#x0440;&#x0441;&#x0430;&#x043B;&#x044C;&#x043D;&#x044B;&#x0439; &#x043C;&#x043E;&#x043D;&#x0438;&#x0442;&#x043E;&#x0440; &#x043D;&#x0435; PnP" friendlyName=""/>
+        <pnpObject name="HTTP" type="Driver" activity="Load"
+                   startTime="10864" endTime="10877" duration="13" prePendTime="13"/>
+        <pnpObject name="\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\DXGKrnl" type="unknown" activity="unknown"
+                   startTime="5551" endTime="5564" duration="12" prePendTime="12"/>
+        <pnpObject name="\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\luafv" type="unknown" activity="unknown"
+                   startTime="8586" endTime="8598" duration="11" prePendTime="11"/>
+        <pnpObject name="PCI\VEN_8086+DEV_100E+SUBSYS_001E8086+REV_02\3+267a616a+0+18" type="Device" activity="Enum"
+                   startTime="6574" endTime="6586" duration="11" prePendTime="11" description="&#x0410;&#x0434;&#x0430;&#x043F;&#x0442;&#x0435;&#x0440; &#x0440;&#x0430;&#x0431;&#x043E;&#x0447;&#x0435;&#x0433;&#x043E; &#x0441;&#x0442;&#x043E;&#x043B;&#x0430; Intel(R) PRO/1000 MT" friendlyName=""/>
+        <pnpObject name="ACPI\AuthenticAMD_-_x86_Family_23_Model_24_-_AMD_Ryzen_5_3500U_with_Radeon_Vega_Mobile_Gfx__\_0" type="Device" activity="Start"
+                   startTime="6678" endTime="6689" duration="11" prePendTime="1" description="&#x041F;&#x0440;&#x043E;&#x0446;&#x0435;&#x0441;&#x0441;&#x043E;&#x0440; AMD" friendlyName="AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx  "/>
+        <pnpObject name="VBoxMouse" type="Driver" activity="Load"
+                   startTime="5481" endTime="5492" duration="10" prePendTime="10"/>
+      </phase>
+    </pnp>
+    <groupPolicy/>
+  </boot>
+</results>
